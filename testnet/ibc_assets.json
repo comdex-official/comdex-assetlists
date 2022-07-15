@@ -16,6 +16,23 @@
       "logoURI": "https://raw.githubusercontent.com/osmosis-labs/assetlists/main/images/atom.svg",
       "coinGeckoId": "cosmos",
       "explorerUrlToTx": "https://explorer.theta-testnet.polypore.xyz/transactions/{txHash}"
+    },
+    {
+      "chainId": "osmo-test-4",
+      "chainName": "Osmosis-Test",
+      "rpc": "https://osmosis-testnet.rpc.one/",
+      "rest": "https://osmosis-testnet.rest.one/",
+      "denom": "OSMO",
+      "minimalDenom": "uosmo",
+      "decimals": 6,
+      "coinType": 118,
+      "addressPrefix": "osmo",
+      "channel": "channel-346",
+      "comdexChannel": "channel-2",
+      "comdexDenom": "ibc/DHCFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2318GH",
+      "logoURI": "https://raw.githubusercontent.com/osmosis-labs/assetlists/main/images/osmo.svg",
+      "coinGeckoId": "osmosis",
+      "explorerUrlToTx": "https://bigdipper.testnet.osmo.mp20.net/transactions/{txHash}"
     }
   ]
 }
