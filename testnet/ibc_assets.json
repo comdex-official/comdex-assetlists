@@ -1,0 +1,21 @@
+{
+  "tokens": [
+    {
+      "chainId": "cosmoshub-4",
+      "chainName": "Cosmos",
+      "rpc": "https://rpc.cosmos.directory:443/cosmoshub",
+      "rest": "https://rest.cosmos.directory:443/cosmoshub",
+      "denom": "ATOM",
+      "minimalDenom": "uatom",
+      "decimals": 6,
+      "coinType": 118,
+      "addressPrefix": "cosmos",
+      "channel": "channel-207",
+      "comdexChannel": "channel-1",
+      "comdexDenom": "ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9",
+      "logoURI": "https://raw.githubusercontent.com/osmosis-labs/assetlists/main/images/atom.svg",
+      "coinGeckoId": "cosmos",
+      "explorerUrlToTx": "https://explorer.theta-testnet.polypore.xyz/transactions/{txHash}"
+    }
+  ]
+}
