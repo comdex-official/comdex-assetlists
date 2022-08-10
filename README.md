@@ -19,7 +19,7 @@ Append the information as per the sample json provided below :
       "coinMinimalDenom": "uatom",
       "coinDecimals": 6,
       "coinType": 118,
-      "addressPrefix": "cosmos",
+      "prefix": "cosmos",
       "channel": "channel-547",
       "comdexChannel": "channel-2",
       "ibcDenomHash": "ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9",

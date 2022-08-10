@@ -9,7 +9,7 @@
       "coinMinimalDenom": "uatom",
       "coinDecimals": 6,
       "coinType": 118,
-      "addressPrefix": "cosmos",
+      "prefix": "cosmos",
       "channel": "channel-547",
       "comdexChannel": "channel-2",
       "ibcDenomHash": "ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9",
@@ -26,13 +26,14 @@
       "coinMinimalDenom": "uosmo",
       "coinDecimals": 6,
       "coinType": 118,
-      "addressPrefix": "osmo",
-      "channel": "channel-380",
-      "comdexChannel": "channel-1",
-      "ibcDenomHash": "ibc/DHCFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2318GH",
+      "prefix": "osmo",
+      "channel": "channel-430",
+      "comdexChannel": "channel-2",
+      "ibcDenomHash": "ibc/13B2C536BB057AC79D5616B8EA1B9540EC1F2170718CAFF6F0083C966FFFED0B",
       "logoURI": "https://raw.githubusercontent.com/osmosis-labs/assetlists/main/images/osmo.svg",
       "coinGeckoId": "osmosis",
       "explorerUrlToTx": "https://bigdipper.testnet.osmo.mp20.net/transactions/{txHash}"
     }
   ]
 }
+
