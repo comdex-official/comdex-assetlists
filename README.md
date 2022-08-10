@@ -1,4 +1,4 @@
-# comdex-assetlists
+# comdex network asset lists
 
 To get the assets listed on comdex networks please open a pull request on the following networks :
 
