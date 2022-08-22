@@ -10,9 +10,9 @@
       "coinDecimals": 6,
       "coinType": 118,
       "prefix": "cosmos",
-      "channel": "channel-547",
-      "comdexChannel": "channel-2",
-      "ibcDenomHash": "ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9",
+      "channel": "channel-581",
+      "comdexChannel": "channel-17",
+      "ibcDenomHash": "ibc/2E5D0AC026AC1AFA65A23023BA4F24BB8DDF94F118EDC0BAD6F625BFC557CDED",
       "logoURI": "https://raw.githubusercontent.com/osmosis-labs/assetlists/main/images/atom.svg",
       "coinGeckoId": "cosmos",
       "explorerUrlToTx": "https://explorer.theta-testnet.polypore.xyz/transactions/{txHash}"
