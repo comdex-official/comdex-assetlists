@@ -3,8 +3,8 @@
     {
       "chainId": "theta-testnet-001",
       "chainName": "Cosmos Hub Test",
-      "rpc": "https://devnet.cswap.one/vega",
-      "rest": "https://devnet.cswap.one/vega-rest",
+      "rpc": "https://testnet.cswap.one/vega",
+      "rest": "https://testnet.cswap.one/vega-rest",
       "coinDenom": "ATOM",
       "coinMinimalDenom": "uatom",
       "coinDecimals": 6,
