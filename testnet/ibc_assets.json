@@ -33,6 +33,33 @@
       "logoURI": "https://raw.githubusercontent.com/osmosis-labs/assetlists/main/images/osmo.svg",
       "coinGeckoId": "osmosis",
       "explorerUrlToTx": "https://bigdipper.testnet.osmo.mp20.net/transactions/{txHash}"
+    },
+    {
+      "chainId": "axelar-testnet-lisbon-3",
+      "chainName": "Axelar-Test",
+      "coinDenom": "USDC",
+      "coinMinimalDenom": "uusdc",
+      "coinDecimals": 6,
+      "coinType": 118,
+      "channel": "channel-62",
+      "comdexChannel": "channel-18",
+      "ibcDenomHash": "ibc/EF8A76D0FD3F3F45D8DB7FEBFCF921206DF58CA41493ED16D69BF7B4E061C60C",
+      "depositUrlOverride": "https://testnet.satellite.money/?source=ethereum&destination=comdex&asset_denom=uausdc&destination_address=",
+      "withdrawUrlOverride": "https://testnet.satellite.money/?source=comdex&destination=ethereum&asset_denom=uausdc&destination_address="
+
+    },
+    {
+      "chainId": "axelar-testnet-lisbon-3",
+      "chainName": "Axelar-Test",
+      "coinDenom": "WETH",
+      "coinMinimalDenom": "weth-wei",
+      "coinDecimals": 18,
+      "coinType": 118,
+      "channel": "channel-62",
+      "comdexChannel": "channel-18",
+      "ibcDenomHash": "ibc/A99459944FD67B5711735B4B4D3FE30BA45328E94D437C78E47CA8DEFA781E49",
+      "depositUrlOverride": "https://testnet.satellite.money/?source=ethereum&destination=comdex&asset_denom=weth-wei&destination_address=",
+      "withdrawUrlOverride": "https://testnet.satellite.money/?source=comdex&destination=ethereum&asset_denom=weth-wei&destination_address="
     }
   ]
 }
