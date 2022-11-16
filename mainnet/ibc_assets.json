@@ -1,38 +1,52 @@
 {
   "tokens": [
     {
-      "chainId": "cosmos-1",
-      "chainName": "Cosmos",
-      "rpc": "https://mainnet.cosmos.one/vega",
-      "rest": "https://mainnet.cosmos.one/vega-rest",
+      "chainId": "cosmoshub-4",
+      "chainName": "COSMOS",
+      "rpc": "https://cosmos-rpc.zenscape.one",
+      "rest": "https://cosmos-rest.zenscape.one",
       "coinDenom": "ATOM",
       "coinMinimalDenom": "uatom",
       "coinDecimals": 6,
       "coinType": 118,
       "prefix": "cosmos",
-      "channel": "channel-547",
-      "comdexChannel": "channel-2",
-      "ibcDenomHash": "ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9",
+      "channel": "channel-400",
+      "comdexChannel": "channel-37",
+      "ibcDenomHash": "ibc/961FA3E54F5DCCA639F37A7C45F7BBE41815579EF1513B5AFBEFCFEB8F256352",
       "logoURI": "https://raw.githubusercontent.com/osmosis-labs/assetlists/main/images/atom.svg",
       "coinGeckoId": "cosmos",
-      "explorerUrlToTx": "https://explorer.cosmos.polypore.xyz/transactions/{txHash}"
+      "explorerUrlToTx": "https://www.mintscan.io/osmosis/txs/{txHash}"
     },
     {
-      "chainId": "osmo-1",
+      "chainId": "osmosis-1",
       "chainName": "Osmosis",
-      "rpc": "https://osmot.rpc.comdex.one",
-      "rest": "https://osmot.rest.comdex.one",
+      "rpc": "https://osmosis-rpc.zenscape.one",
+      "rest": "https://osmosis-rest.zenscape.one",
       "coinDenom": "OSMO",
       "coinMinimalDenom": "uosmo",
       "coinDecimals": 6,
       "coinType": 118,
       "prefix": "osmo",
-      "channel": "channel-380",
+      "channel": "channel-87",
       "comdexChannel": "channel-1",
-      "ibcDenomHash": "ibc/DHCFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2318GH",
+      "ibcDenomHash": "ibc/0471F1C4E7AFD3F07702BEF6DC365268D64570F7C1FDC98EA6098DD6DE59817B",
       "logoURI": "https://raw.githubusercontent.com/osmosis-labs/assetlists/main/images/osmo.svg",
       "coinGeckoId": "osmosis",
-      "explorerUrlToTx": "https://bigdipper.osmo.mp20.net/transactions/{txHash}"
+      "explorerUrlToTx": "https://www.mintscan.io/osmosis/txs/{txHash}"
+    },
+    {
+      "chainId": "axelar-dojo-1",
+      "chainName": "Axelar",
+      "coinDenom": "USDC",
+      "coinMinimalDenom": "uusdc",
+      "coinDecimals": 6,
+      "coinType": 118,
+      "channel": "channel-31",
+      "comdexChannel": "channel-34",
+      "ibcDenomHash": "ibc/E1616E7C19EA474C565737709A628D6F8A23FF9D3E9A7A6871306CF5E0A5341E",
+      "depositUrlOverride": "https://satellite.money/?source=ethereum&destination=comdex&asset_denom=uausdc&destination_address=",
+      "withdrawUrlOverride": "https://satellite.money/?source=comdex&destination=ethereum&asset_denom=uausdc&destination_address="
+
     }
   ]
 }
