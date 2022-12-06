@@ -4,7 +4,9 @@ To get the assets listed on comdex networks please open a pull request on the fo
 
 1. Test net : add the assets information to get it listed on comdex test net.
 
-2. comdex-1 : add the assets information to get it listed on comdex main net
+2. Testnet-2 : add the assets information to get it listed on comdex test net v2.
+
+3. comdex-1 : add the assets information to get it listed on comdex main net
 
 Append the information as per the sample json provided below : 
 
