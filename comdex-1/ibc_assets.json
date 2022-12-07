@@ -47,6 +47,23 @@
       "depositUrlOverride": "https://satellite.money/?source=ethereum&destination=comdex&asset_denom=uausdc&destination_address=",
       "withdrawUrlOverride": "https://satellite.money/?source=comdex&destination=ethereum&asset_denom=uausdc&destination_address="
 
+    },
+    {
+      "chainId": "juno-1",
+      "chainName": "juno",
+      "rpc": "https://juno-rpc.polkachu.com",
+      "rest": "https://juno-api.polkachu.com",
+      "coinDenom": "juno",
+      "coinMinimalDenom": "ujuno",
+      "coinDecimals": 6,
+      "coinType": 118,
+      "prefix": "juno",
+      "channel": "channel-36",
+      "comdexChannel": "channel-18",
+      "ibcDenomHash": "ibc/167E3D88D71B7D2F6308D3EF93FC3DD51932B2D9672D72B71418F61CBC5F5717",
+      "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/blob/master/juno/images/juno.svg",
+      "coinGeckoId": "juno-network",
+      "explorerUrlToTx": "https://www.mintscan.io/juno/txs/{txHash}"
     }
   ]
 }
