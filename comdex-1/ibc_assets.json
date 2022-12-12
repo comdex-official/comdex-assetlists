@@ -64,6 +64,51 @@
       "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/blob/master/juno/images/juno.svg",
       "coinGeckoId": "juno-network",
       "explorerUrlToTx": "https://www.mintscan.io/juno/txs/{txHash}"
+    },
+    {
+      "chainId": "axelar-dojo-1",
+      "chainName": "Axelar",
+      "coinDenom": "weth",
+      "coinMinimalDenom": "weth-wei",
+      "coinDecimals": 18,
+      "coinType": 118,
+      "channel": "channel-31",
+      "comdexChannel": "channel-34",
+      "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/weth.png",
+      "ibcDenomHash": "ibc/81C3A46287D7664A8FD19843AC8D0CFD6C284EF1F750C661C48B3544277B1B29",
+      "depositUrlOverride": "https://satellite.money/?destination_address=&asset_denom=weth-wei&source=ethereum&destination=comdex",
+      "withdrawUrlOverride": "https://satellite.money/?destination_address=&asset_denom=weth-wei&source=comdex&destination=ethereum"
+    },
+    {
+      "chainId": "axelar-dojo-1",
+      "chainName": "Axelar",
+      "coinDenom": "wbtc",
+      "coinMinimalDenom": "wbtc-satoshi",
+      "coinDecimals": 8,
+      "coinType": 118,
+      "channel": "channel-31",
+      "comdexChannel": "channel-34",
+      "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/wbtc.png",
+      "ibcDenomHash": "ibc/0A6F20FA34BEBB63568E44C81C6E154C63ED061BA45E7EBC144B24C0DBBD0A4F",
+      "depositUrlOverride": "https://satellite.money/?destination_address=&asset_denom=wbtc-satoshi&source=ethereum&destination=comdex",
+      "withdrawUrlOverride": "https://satellite.money/?destination_address=&asset_denom=wbtc-satoshi&source=comdex&destination=ethereum"
+    },
+    {
+      "chainId": "stride-1",
+      "chainName": "stride",
+      "rpc": "https://stride-rpc.polkachu.com",
+      "rest": "https://stride-api.polkachu.com",
+      "coinDenom": "statom",
+      "coinMinimalDenom": "stuatom",
+      "coinDecimals": 6,
+      "coinType": 118,
+      "prefix": "juno",
+      "channel": "channel-49",
+      "comdexChannel": "channel-45",
+      "ibcDenomHash": "ibc/21476176CD2CBF2F8017EFF231B1132DF23F350B0219AB47A6E087527ECADCC2",
+      "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.svg",
+      "coinGeckoId": "stride-staked-atom",
+      "explorerUrlToTx": "https://www.mintscan.io/stride/txs/{txHash}"
     }
   ]
 }
