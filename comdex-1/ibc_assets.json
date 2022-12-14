@@ -78,20 +78,6 @@
        "ibcDenomHash": "ibc/81C3A46287D7664A8FD19843AC8D0CFD6C284EF1F750C661C48B3544277B1B29",
        "depositUrlOverride": "https://satellite.money/?destination_address=&asset_denom=weth-wei&source=ethereum&destination=comdex",
        "withdrawUrlOverride": "https://satellite.money/?destination_address=&asset_denom=weth-wei&source=comdex&destination=ethereum"
-     },
-     {
-       "chainId": "axelar-dojo-1",
-       "chainName": "Axelar",
-       "coinDenom": "wbtc",
-       "coinMinimalDenom": "wbtc-satoshi",
-       "coinDecimals": 8,
-       "coinType": 118,
-       "channel": "channel-31",
-       "comdexChannel": "channel-34",
-       "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/wbtc.png",
-       "ibcDenomHash": "ibc/0A6F20FA34BEBB63568E44C81C6E154C63ED061BA45E7EBC144B24C0DBBD0A4F",
-       "depositUrlOverride": "https://satellite.money/?destination_address=&asset_denom=wbtc-satoshi&source=ethereum&destination=comdex",
-       "withdrawUrlOverride": "https://satellite.money/?destination_address=&asset_denom=wbtc-satoshi&source=comdex&destination=ethereum"
      }
   ]
 }
