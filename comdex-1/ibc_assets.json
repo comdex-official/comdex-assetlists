@@ -92,6 +92,23 @@
       "ibcDenomHash": "ibc/0A6F20FA34BEBB63568E44C81C6E154C63ED061BA45E7EBC144B24C0DBBD0A4F",
       "depositUrlOverride": "https://satellite.money/?destination_address=&asset_denom=wbtc-satoshi&source=ethereum&destination=comdex",
       "withdrawUrlOverride": "https://satellite.money/?destination_address=&asset_denom=wbtc-satoshi&source=comdex&destination=ethereum"
-    }
+    },
+     {
+       "chainId": "stride-1",
+       "chainName": "stride",
+       "rpc": "https://stride-rpc.polkachu.com",
+       "rest": "https://stride-api.polkachu.com",
+       "coinDenom": "statom",
+       "coinMinimalDenom": "stuatom",
+       "coinDecimals": 6,
+       "coinType": 118,
+       "prefix": "juno",
+       "channel": "channel-49",
+       "comdexChannel": "channel-45",
+       "ibcDenomHash": "ibc/21476176CD2CBF2F8017EFF231B1132DF23F350B0219AB47A6E087527ECADCC2",
+       "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.svg",
+       "coinGeckoId": "stride-staked-atom",
+       "explorerUrlToTx": "https://www.mintscan.io/stride/txs/{txHash}"
+     }
   ]
 }
