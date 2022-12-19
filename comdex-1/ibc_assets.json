@@ -96,8 +96,8 @@
      {
        "chainId": "stride-1",
        "chainName": "stride",
-       "rpc": "https://stride-rpc.polkachu.com",
-       "rest": "https://stride-api.polkachu.com",
+       "rpc": "https://stride-rpc.zenscape.one",
+       "rest": "https://stride-rest.zenscape.one",
        "coinDenom": "statom",
        "coinMinimalDenom": "stuatom",
        "coinDecimals": 6,
