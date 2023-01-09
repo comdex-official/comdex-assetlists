@@ -116,6 +116,21 @@
        "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.svg",
        "coinGeckoId": "stride-staked-atom",
        "explorerUrlToTx": "https://www.mintscan.io/stride/txs/{txHash}"
+     },
+     {
+       "chainId": "axelar-dojo-1",
+       "chainName": "Axelar",
+       "coinDenom": "wmatic",
+       "coinMinimalDenom": "wmatic-wei",
+       "symbol": "WMATIC",
+       "coinDecimals": 18,
+       "coinType": 118,
+       "channel": "channel-31",
+       "comdexChannel": "channel-34",
+       "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/wmatic-wei%20D%403x.png",
+       "ibcDenomHash": "ibc/E8F0355CBC21AFD4C758E93383D28404D19AEB81E8251A63FAA0C250672ADBEF",
+       "depositUrlOverride": "https://satellite.money/?destination_address=&asset_denom=wmatic-wei&source=ethereum&destination=comdex",
+       "withdrawUrlOverride": "https://satellite.money/?destination_address=&asset_denom=wmatic-wei&source=comdex&destination=ethereum"
      }
   ]
 }
