@@ -102,7 +102,8 @@
      {
        "chainId": "stride-1",
        "chainName": "stride",
-
+       "rpc": "https://stride-rpc.zenscape.one",
+       "rest": "https://stride-rest.zenscape.one",
        "coinDenom": "statom",
        "coinMinimalDenom": "stuatom",
        "symbol": "stATOM",
