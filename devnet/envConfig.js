@@ -11,7 +11,7 @@ export const envConfig = {
   explorerUrlToTx: "https://dev-explorer.comdex.one/transactions/{txHash}",
   apiUrl: "https://testnet-stat.comdex.one",
   comdexStakingUrl: "https://comdex.omniflix.co/stake",
-  webSocketApiUrl: "wss://rpc.comdex.one/websocket",
+  webSocketApiUrl: "wss://devnet.rpc.comdex.one/websocket",
 
   commodo: {
     appId: 3,
