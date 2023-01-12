@@ -17,7 +17,7 @@ export const envConfig = {
     appId: 3,
     cswapAppId: 2,
     numberOfTopAssets: 3,
-    cswapUrl: "https://staging.cswap.one",
+    cswapUrl: "https://devnet.cswap.one",
     rewardsUrl: "https://docs.commodo.one/rewards",
     atomCmdxPoolId: 1,
   },
