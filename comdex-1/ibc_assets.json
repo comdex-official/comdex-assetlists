@@ -131,6 +131,21 @@
        "ibcDenomHash": "ibc/E8F0355CBC21AFD4C758E93383D28404D19AEB81E8251A63FAA0C250672ADBEF",
        "depositUrlOverride": "https://satellite.money/?destination_address=&asset_denom=wmatic-wei&source=ethereum&destination=comdex",
        "withdrawUrlOverride": "https://satellite.money/?destination_address=&asset_denom=wmatic-wei&source=comdex&destination=ethereum"
-     }
+     },
+     {
+      "chainId": "axelar-dojo-1",
+      "chainName": "Axelar",
+      "coinDenom": "dai",
+      "coinMinimalDenom": "dai-wei",
+      "symbol": "DAI",
+      "coinDecimals": 18,
+      "coinType": 118,
+      "channel": "channel-31",
+      "comdexChannel": "channel-34",
+      "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/dai.svg",
+      "ibcDenomHash": "ibc/54DEF693B7C4BF171E7FFF3ABFE2B54D6A3B8A047A32BAAE9F1417A378594EC6",
+      "depositUrlOverride": "https://satellite.money/?destination_address=&asset_denom=dai-wei&source=ethereum&destination=comdex",
+      "withdrawUrlOverride": "https://satellite.money/?destination_address=&asset_denom=dai-wei&source=comdex&destination=ethereum"
+    }
   ]
 }
