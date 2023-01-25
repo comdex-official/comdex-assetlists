@@ -146,6 +146,39 @@
       "ibcDenomHash": "ibc/54DEF693B7C4BF171E7FFF3ABFE2B54D6A3B8A047A32BAAE9F1417A378594EC6",
       "depositUrlOverride": "https://satellite.money/?destination_address=&asset_denom=dai-wei&source=ethereum&destination=comdex",
       "withdrawUrlOverride": "https://satellite.money/?destination_address=&asset_denom=dai-wei&source=comdex&destination=ethereum"
+    },
+    {
+      "chainId": "evmos_9001-2",
+      "chainName": "evmos",
+      "rpc": "https://rpc.evmos.kingnodes.com",
+      "rest": "https://api.evmos.kingnodes.com",
+      "coinDenom": "evmos",
+      "coinMinimalDenom": "aevmos",
+      "symbol": "EVMOS",
+      "coinDecimals": 18,
+      "coinType": 60,
+      "prefix": "evmos",
+      "channel": "channel-26",
+      "comdexChannel": "channel-35",
+      "ibcDenomHash": "ibc/D01562AB9C4CC84E06A84FFA213C7592508120C3F91EFFB1E62117D5932C2B1F",
+      "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/images/evmos.svg",
+      "coinGeckoId": "evmos",
+      "explorerUrlToTx": "https://www.mintscan.io/evmos/txs/${txHash}"
+    },
+    {
+      "chainId": "axelar-dojo-1",
+      "chainName": "Axelar",
+      "coinDenom": "wbnb",
+      "coinMinimalDenom": "wbnb-wei",
+      "symbol": "WBNB",
+      "coinDecimals": 18,
+      "coinType": 118,
+      "channel": "channel-31",
+      "comdexChannel": "channel-34",
+      "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/binancesmartchain/images/wbnb.svg",
+      "ibcDenomHash": "ibc/EC7576E3F8D254787264F0972E6518E42CFFB5305EC9D0BC7DD7B7FFEFACB28A",
+      "depositUrlOverride": "https://satellite.money/?destination_address=&asset_denom=wbnb-wei&source=ethereum&destination=comdex",
+      "withdrawUrlOverride": "https://satellite.money/?destination_address=&asset_denom=wbnb-wei&source=comdex&destination=ethereum"
     }
   ]
 }
