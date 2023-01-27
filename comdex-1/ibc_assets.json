@@ -150,8 +150,8 @@
     {
       "chainId": "evmos_9001-2",
       "chainName": "evmos",
-      "rpc": "https://evmos-rpc.validatrium.club",
-      "rest": "https://evmos-api.validatrium.club",
+      "rpc": "https://evmos-rpc.comdex.one/evmos",
+      "rest": "https://evmos-rest.comdex.one/evmos",
       "coinDenom": "evmos",
       "coinMinimalDenom": "aevmos",
       "symbol": "EVMOS",
