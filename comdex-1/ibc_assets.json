@@ -109,7 +109,7 @@
        "symbol": "stATOM",
        "coinDecimals": 6,
        "coinType": 118,
-       "prefix": "juno",
+       "prefix": "stride",
        "channel": "channel-49",
        "comdexChannel": "channel-45",
        "ibcDenomHash": "ibc/21476176CD2CBF2F8017EFF231B1132DF23F350B0219AB47A6E087527ECADCC2",
