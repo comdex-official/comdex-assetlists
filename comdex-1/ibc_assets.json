@@ -179,6 +179,57 @@
       "ibcDenomHash": "ibc/EC7576E3F8D254787264F0972E6518E42CFFB5305EC9D0BC7DD7B7FFEFACB28A",
       "depositUrlOverride": "https://satellite.money/?destination_address=&asset_denom=wbnb-wei&source=ethereum&destination=comdex",
       "withdrawUrlOverride": "https://satellite.money/?destination_address=&asset_denom=wbnb-wei&source=comdex&destination=ethereum"
+    },
+    {
+      "chainId": "phoenix-1",
+      "chainName": "terra2",
+      "rpc": "https://rpc.terrav2.ccvalidators.com",
+      "rest": "https://fcd.terrav2.ccvalidators.com",
+      "coinDenom": "LUNA",
+      "coinMinimalDenom": "uluna",
+      "symbol": "LUNA",
+      "coinDecimals": 6,
+      "coinType": 118,
+      "prefix": "terra",
+      "channel": "channel-39",
+      "comdexChannel": "channel-51",
+      "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/luna.png",
+      "ibcDenomHash": "ibc/0695E3FA2C74C608E9573025598A7BD4297BE15180F86707B2118E513DBF4A5A",
+      "coinGeckoId": "terra",
+      "explorerUrlToTx": "https://finder.terra.money/mainnet/tx/${txHash}"
+    },
+    {
+      "chainId": "canto_7700-1",
+      "chainName": "canto",
+      "rpc": "https://canto-rpc.polkachu.com",
+      "rest": "https://canto-api.polkachu.com",
+      "coinDenom": "CANTO",
+      "coinMinimalDenom": "acanto",
+      "symbol": "CANTO",
+      "coinDecimals": 18,
+      "coinType": 118,
+      "prefix": "canto",
+      "channel": "channel-4",
+      "comdexChannel": "channel-54",
+      "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/canto/images/canto.png",
+      "ibcDenomHash": "ibc/0595B80D7DED6EB31D3CD9ACE668702994E3F44C26CAAE72DF3DF7122F3F7A35",
+      "coinGeckoId": "canto",
+      "explorerUrlToTx": "https://cosmos-explorers.neobase.one/canto/tx/${txHash}"
+    },
+    {
+      "chainId": "gravity-bridge-3",
+      "chainName": "gravitybridge",
+      "coinDenom": "gusdc",
+      "coinMinimalDenom": "gusdc",
+      "symbol": "gUSDC",
+      "coinDecimals": 6,
+      "coinType": 118,
+      "channel": "channel-112",
+      "comdexChannel": "channel-56",
+      "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg",
+      "ibcDenomHash": "ibc/2ABB3F0A1DA07D7F83D5004A4A16A4D4A264067AA85E15A4885D0AB8C0E4587B",
+      "depositUrlOverride": "https://bridge.blockscape.network/",
+      "withdrawUrlOverride": "https://bridge.blockscape.network/"
     }
   ]
 }
