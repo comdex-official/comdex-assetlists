@@ -215,21 +215,6 @@
       "ibcDenomHash": "ibc/0595B80D7DED6EB31D3CD9ACE668702994E3F44C26CAAE72DF3DF7122F3F7A35",
       "coinGeckoId": "canto",
       "explorerUrlToTx": "https://cosmos-explorers.neobase.one/canto/tx/${txHash}"
-    },
-    {
-      "chainId": "gravity-bridge-3",
-      "chainName": "gravitybridge",
-      "coinDenom": "gusdc",
-      "coinMinimalDenom": "gusdc",
-      "symbol": "gUSDC",
-      "coinDecimals": 6,
-      "coinType": 118,
-      "channel": "channel-112",
-      "comdexChannel": "channel-56",
-      "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg",
-      "ibcDenomHash": "ibc/2ABB3F0A1DA07D7F83D5004A4A16A4D4A264067AA85E15A4885D0AB8C0E4587B",
-      "depositUrlOverride": "https://bridge.blockscape.network/",
-      "withdrawUrlOverride": "https://bridge.blockscape.network/"
     }
   ]
 }
