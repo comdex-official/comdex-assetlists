@@ -183,7 +183,7 @@
     {
       "chainId": "phoenix-1",
       "chainName": "terra2",
-      "rpc": "https://rpc.terrav2.ccvalidators.com",
+      "rpc": "https://terra-rpc.comdex.one/terra",
       "rest": "https://fcd.terrav2.ccvalidators.com",
       "coinDenom": "LUNA",
       "coinMinimalDenom": "uluna",
