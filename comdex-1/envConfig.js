@@ -12,11 +12,13 @@ export const envConfig = {
   apiUrl: "https://stat.comdex.one",
   comdexStakingUrl: "https://comdex.omniflix.co/stake",
   webSocketApiUrl: "wss://rpc.comdex.one/websocket",
+  symbol: "CMDX",
 
   commodo: {
     appId: 3,
     cswapAppId: 1,
     numberOfTopAssets: 3,
+    websiteUrl: "https://app.commodo.one",
     cswapUrl: "https://app.cswap.one",
     rewardsUrl: "https://docs.commodo.one/rewards",
     atomCmdxPoolId: 1,
@@ -25,6 +27,17 @@ export const envConfig = {
   cSwap: {
     appId: 1,
     masterPoolId: 1,
+    websiteUrl: "https://app.cswap.one",
     networkTag: "mainnet",
+  },
+  harbor: {
+    title: "Harbor Protocol",
+    websiteUrl: "https://app.harborprotocol.one",
+    appId: 2,
+    governanceContractAddress: "comdex1ghd753shjuwexxywmgs4xz7x2q732vcnkm6h2pyv9s6ah3hylvrqfy9rd8",
+    lockingContractAddress: "comdex1qwlgtx52gsdu7dtp0cekka5zehdl0uj3fhp9acg325fvgs8jdzksjvgq6q",
+    airdropContractAddress: "comdex1xt4ahzz2x8hpkc0tk6ekte9x6crw4w6u0r67cyt3kz9syh24pd7s6erldv",
+    harborAirdropApiUrl: "http://3.7.255.161",
+    harborDashboardTVLApiUrl: "https://stat.comdex.one"
   },
 };
