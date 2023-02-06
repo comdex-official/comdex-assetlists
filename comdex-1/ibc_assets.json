@@ -207,7 +207,7 @@
       "coinMinimalDenom": "acanto",
       "symbol": "CANTO",
       "coinDecimals": 18,
-      "coinType": 118,
+      "coinType": 60,
       "prefix": "canto",
       "channel": "channel-7",
       "comdexChannel": "channel-58",
