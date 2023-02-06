@@ -16,7 +16,11 @@
       "ibcDenomHash": "ibc/961FA3E54F5DCCA639F37A7C45F7BBE41815579EF1513B5AFBEFCFEB8F256352",
       "logoURI": "https://raw.githubusercontent.com/osmosis-labs/assetlists/main/images/atom.svg",
       "coinGeckoId": "cosmos",
-      "explorerUrlToTx": "https://www.mintscan.io/osmosis/txs/{txHash}"
+      "explorerUrlToTx": "https://www.mintscan.io/osmosis/txs/{txHash}",
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
     },
     {
       "chainId": "osmosis-1",
@@ -34,7 +38,11 @@
       "ibcDenomHash": "ibc/0471F1C4E7AFD3F07702BEF6DC365268D64570F7C1FDC98EA6098DD6DE59817B",
       "logoURI": "https://raw.githubusercontent.com/osmosis-labs/assetlists/main/images/osmo.svg",
       "coinGeckoId": "osmosis",
-      "explorerUrlToTx": "https://www.mintscan.io/osmosis/txs/{txHash}"
+      "explorerUrlToTx": "https://www.mintscan.io/osmosis/txs/{txHash}",
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
     },
     {
       "chainId": "axelar-dojo-1",
@@ -48,8 +56,11 @@
       "comdexChannel": "channel-34",
       "ibcDenomHash": "ibc/E1616E7C19EA474C565737709A628D6F8A23FF9D3E9A7A6871306CF5E0A5341E",
       "depositUrlOverride": "https://satellite.money/?source=ethereum&destination=comdex&asset_denom=uausdc&destination_address=",
-      "withdrawUrlOverride": "https://satellite.money/?source=comdex&destination=ethereum&asset_denom=uausdc&destination_address="
-
+      "withdrawUrlOverride": "https://satellite.money/?source=comdex&destination=ethereum&asset_denom=uausdc&destination_address=",
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
     },
     {
       "chainId": "juno-1",
@@ -67,24 +78,32 @@
       "ibcDenomHash": "ibc/167E3D88D71B7D2F6308D3EF93FC3DD51932B2D9672D72B71418F61CBC5F5717",
       "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/blob/master/juno/images/juno.svg",
       "coinGeckoId": "juno-network",
-      "explorerUrlToTx": "https://www.mintscan.io/juno/txs/{txHash}"
+      "explorerUrlToTx": "https://www.mintscan.io/juno/txs/{txHash}",
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
     },
-     {
-       "chainId": "axelar-dojo-1",
-       "chainName": "Axelar",
-       "coinDenom": "weth",
-       "coinMinimalDenom": "weth-wei",
-       "symbol": "WETH",
-       "coinDecimals": 18,
-       "coinType": 118,
-       "channel": "channel-31",
-       "comdexChannel": "channel-34",
-       "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/weth.png",
-       "ibcDenomHash": "ibc/81C3A46287D7664A8FD19843AC8D0CFD6C284EF1F750C661C48B3544277B1B29",
-       "depositUrlOverride": "https://satellite.money/?destination_address=&asset_denom=weth-wei&source=ethereum&destination=comdex",
-       "withdrawUrlOverride": "https://satellite.money/?destination_address=&asset_denom=weth-wei&source=comdex&destination=ethereum"
-     },
-     {
+    {
+      "chainId": "axelar-dojo-1",
+      "chainName": "Axelar",
+      "coinDenom": "weth",
+      "coinMinimalDenom": "weth-wei",
+      "symbol": "WETH",
+      "coinDecimals": 18,
+      "coinType": 118,
+      "channel": "channel-31",
+      "comdexChannel": "channel-34",
+      "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/weth.png",
+      "ibcDenomHash": "ibc/81C3A46287D7664A8FD19843AC8D0CFD6C284EF1F750C661C48B3544277B1B29",
+      "depositUrlOverride": "https://satellite.money/?destination_address=&asset_denom=weth-wei&source=ethereum&destination=comdex",
+      "withdrawUrlOverride": "https://satellite.money/?destination_address=&asset_denom=weth-wei&source=comdex&destination=ethereum",
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
+    },
+    {
       "chainId": "axelar-dojo-1",
       "chainName": "Axelar",
       "coinDenom": "wbtc",
@@ -97,42 +116,54 @@
       "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/wbtc.png",
       "ibcDenomHash": "ibc/0A6F20FA34BEBB63568E44C81C6E154C63ED061BA45E7EBC144B24C0DBBD0A4F",
       "depositUrlOverride": "https://satellite.money/?destination_address=&asset_denom=wbtc-satoshi&source=ethereum&destination=comdex",
-      "withdrawUrlOverride": "https://satellite.money/?destination_address=&asset_denom=wbtc-satoshi&source=comdex&destination=ethereum"
+      "withdrawUrlOverride": "https://satellite.money/?destination_address=&asset_denom=wbtc-satoshi&source=comdex&destination=ethereum",
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
     },
-     {
-       "chainId": "stride-1",
-       "chainName": "stride",
-       "rpc": "https://stride-rpc.zenscape.one",
-       "rest": "https://stride-rest.zenscape.one",
-       "coinDenom": "statom",
-       "coinMinimalDenom": "stuatom",
-       "symbol": "stATOM",
-       "coinDecimals": 6,
-       "coinType": 118,
-       "prefix": "stride",
-       "channel": "channel-49",
-       "comdexChannel": "channel-45",
-       "ibcDenomHash": "ibc/21476176CD2CBF2F8017EFF231B1132DF23F350B0219AB47A6E087527ECADCC2",
-       "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.svg",
-       "coinGeckoId": "stride-staked-atom",
-       "explorerUrlToTx": "https://www.mintscan.io/stride/txs/{txHash}"
-     },
-     {
-       "chainId": "axelar-dojo-1",
-       "chainName": "Axelar",
-       "coinDenom": "wmatic",
-       "coinMinimalDenom": "wmatic-wei",
-       "symbol": "WMATIC",
-       "coinDecimals": 18,
-       "coinType": 118,
-       "channel": "channel-31",
-       "comdexChannel": "channel-34",
-       "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polygon/images/wmatic.svg",
-       "ibcDenomHash": "ibc/E8F0355CBC21AFD4C758E93383D28404D19AEB81E8251A63FAA0C250672ADBEF",
-       "depositUrlOverride": "https://satellite.money/?destination_address=&asset_denom=wmatic-wei&source=ethereum&destination=comdex",
-       "withdrawUrlOverride": "https://satellite.money/?destination_address=&asset_denom=wmatic-wei&source=comdex&destination=ethereum"
-     },
-     {
+    {
+      "chainId": "stride-1",
+      "chainName": "stride",
+      "rpc": "https://stride-rpc.zenscape.one",
+      "rest": "https://stride-rest.zenscape.one",
+      "coinDenom": "statom",
+      "coinMinimalDenom": "stuatom",
+      "symbol": "stATOM",
+      "coinDecimals": 6,
+      "coinType": 118,
+      "prefix": "stride",
+      "channel": "channel-49",
+      "comdexChannel": "channel-45",
+      "ibcDenomHash": "ibc/21476176CD2CBF2F8017EFF231B1132DF23F350B0219AB47A6E087527ECADCC2",
+      "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.svg",
+      "coinGeckoId": "stride-staked-atom",
+      "explorerUrlToTx": "https://www.mintscan.io/stride/txs/{txHash}",
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
+    },
+    {
+      "chainId": "axelar-dojo-1",
+      "chainName": "Axelar",
+      "coinDenom": "wmatic",
+      "coinMinimalDenom": "wmatic-wei",
+      "symbol": "WMATIC",
+      "coinDecimals": 18,
+      "coinType": 118,
+      "channel": "channel-31",
+      "comdexChannel": "channel-34",
+      "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polygon/images/wmatic.svg",
+      "ibcDenomHash": "ibc/E8F0355CBC21AFD4C758E93383D28404D19AEB81E8251A63FAA0C250672ADBEF",
+      "depositUrlOverride": "https://satellite.money/?destination_address=&asset_denom=wmatic-wei&source=ethereum&destination=comdex",
+      "withdrawUrlOverride": "https://satellite.money/?destination_address=&asset_denom=wmatic-wei&source=comdex&destination=ethereum",
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
+    },
+    {
       "chainId": "axelar-dojo-1",
       "chainName": "Axelar",
       "coinDenom": "dai",
@@ -145,7 +176,11 @@
       "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/dai.svg",
       "ibcDenomHash": "ibc/54DEF693B7C4BF171E7FFF3ABFE2B54D6A3B8A047A32BAAE9F1417A378594EC6",
       "depositUrlOverride": "https://satellite.money/?destination_address=&asset_denom=dai-wei&source=ethereum&destination=comdex",
-      "withdrawUrlOverride": "https://satellite.money/?destination_address=&asset_denom=dai-wei&source=comdex&destination=ethereum"
+      "withdrawUrlOverride": "https://satellite.money/?destination_address=&asset_denom=dai-wei&source=comdex&destination=ethereum",
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
     },
     {
       "chainId": "evmos_9001-2",
@@ -163,7 +198,13 @@
       "ibcDenomHash": "ibc/D01562AB9C4CC84E06A84FFA213C7592508120C3F91EFFB1E62117D5932C2B1F",
       "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/images/evmos.svg",
       "coinGeckoId": "evmos",
-      "explorerUrlToTx": "https://www.mintscan.io/evmos/txs/${txHash}"
+      "explorerUrlToTx": "https://www.mintscan.io/evmos/txs/${txHash}",
+      "features": [
+        "ibc-transfer",
+        "ibc-go",
+        "eth-address-gen",
+        "eth-key-sign"
+      ]
     },
     {
       "chainId": "axelar-dojo-1",
@@ -178,7 +219,11 @@
       "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/binancesmartchain/images/wbnb.svg",
       "ibcDenomHash": "ibc/EC7576E3F8D254787264F0972E6518E42CFFB5305EC9D0BC7DD7B7FFEFACB28A",
       "depositUrlOverride": "https://satellite.money/?destination_address=&asset_denom=wbnb-wei&source=ethereum&destination=comdex",
-      "withdrawUrlOverride": "https://satellite.money/?destination_address=&asset_denom=wbnb-wei&source=comdex&destination=ethereum"
+      "withdrawUrlOverride": "https://satellite.money/?destination_address=&asset_denom=wbnb-wei&source=comdex&destination=ethereum",
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
     },
     {
       "chainId": "phoenix-1",
@@ -196,7 +241,11 @@
       "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/luna.png",
       "ibcDenomHash": "ibc/0695E3FA2C74C608E9573025598A7BD4297BE15180F86707B2118E513DBF4A5A",
       "coinGeckoId": "terra",
-      "explorerUrlToTx": "https://finder.terra.money/mainnet/tx/${txHash}"
+      "explorerUrlToTx": "https://finder.terra.money/mainnet/tx/${txHash}",
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
     },
     {
       "chainId": "canto_7700-1",
@@ -214,7 +263,13 @@
       "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/canto/images/canto.png",
       "ibcDenomHash": "ibc/E910718AB26DC0E05677D9B034CF23F17B5B468A464B0CB873A0BE65398DBFBD",
       "coinGeckoId": "canto",
-      "explorerUrlToTx": "https://cosmos-explorers.neobase.one/canto/tx/${txHash}"
+      "explorerUrlToTx": "https://cosmos-explorers.neobase.one/canto/tx/${txHash}",
+      "features": [
+        "ibc-transfer",
+        "ibc-go",
+        "eth-address-gen",
+        "eth-key-sign"
+      ]
     }
   ]
 }
