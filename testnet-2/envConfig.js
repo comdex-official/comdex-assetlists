@@ -35,8 +35,8 @@ export const envConfig = {
     title: "Harbor Protocol",
     websiteUrl: "https://testnet.harborprotocol.one",
     appId: 2,
-    governanceContractAddress: "comdex1ghd753shjuwexxywmgs4xz7x2q732vcnkm6h2pyv9s6ah3hylvrqfy9rd8",
-    lockingContractAddress: "comdex1qwlgtx52gsdu7dtp0cekka5zehdl0uj3fhp9acg325fvgs8jdzksjvgq6q",
+    governanceContractAddress: "comdex1qwlgtx52gsdu7dtp0cekka5zehdl0uj3fhp9acg325fvgs8jdzksjvgq6q",
+    lockingContractAddress: "comdex1ghd753shjuwexxywmgs4xz7x2q732vcnkm6h2pyv9s6ah3hylvrqfy9rd8",
     airdropContractAddress: "comdex1gya5c9y6yehyps5kz9vt2dptgkncvvx76mf05jext4axh9x6vpxql3vu9v",
     harborAirdropApiUrl: "http://3.7.255.161",
     harborDashboardTVLApiUrl: "https://testnet-stat.comdex.one"
