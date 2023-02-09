@@ -3,8 +3,8 @@
     {
       "chainId": "cosmoshub-4",
       "chainName": "COSMOS",
-      "rpc": "https://cosmos-rpc.zenscape.one",
-      "rest": "https://cosmos-rest.zenscape.one",
+      "rpc": "https://cosmos-rpc.comdex.one/cosmos",
+      "rest": "https://cosmos-rest.comdex.one/cosmos",
       "coinDenom": "ATOM",
       "coinMinimalDenom": "uatom",
       "symbol": "ATOM",
