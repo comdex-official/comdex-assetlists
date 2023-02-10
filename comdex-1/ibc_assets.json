@@ -303,7 +303,7 @@
       "symbol": "XPRT",
       "coinDecimals": 6,
       "coinType": 118,
-      "prefix": "stride",
+      "prefix": "persistence",
       "channel": "channel-57",
       "comdexChannel": "channel-71",
       "ibcDenomHash": "ibc/E437FFE5ABB5163FA7968BAF68146512B81E842DF05BA27E3B25E64B7CDC9AC7",
