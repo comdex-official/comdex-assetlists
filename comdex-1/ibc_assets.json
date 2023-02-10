@@ -270,6 +270,72 @@
         "eth-address-gen",
         "eth-key-sign"
       ]
+    },
+    {
+      "chainId": "stride-1",
+      "chainName": "stride",
+      "rpc": "https://stride-rpc.comdex.one/stride",
+      "rest": "https://stride-rest.comdex.one/stride",
+      "coinDenom": "stosmo",
+      "coinMinimalDenom": "stuosmo",
+      "symbol": "stOSMO",
+      "coinDecimals": 6,
+      "coinType": 118,
+      "prefix": "stride",
+      "channel": "channel-49",
+      "comdexChannel": "channel-45",
+      "ibcDenomHash": "ibc/CC482813CC038C614C2615A997621EA5E605ADCCD4040B83B0468BD72533A165",
+      "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stosmo.svg",
+      "coinGeckoId": "stride-staked-osmo",
+      "explorerUrlToTx": "https://www.mintscan.io/stride/txs/{txHash}",
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
+    },
+    {
+      "chainId": "core-1",
+      "chainName": "persistence",
+      "rpc": "https://persistence-rpc.polkachu.com",
+      "rest": "https://persistence-api.polkachu.com",
+      "coinDenom": "uxprt",
+      "coinMinimalDenom": "uxprt",
+      "symbol": "XPRT",
+      "coinDecimals": 6,
+      "coinType": 118,
+      "prefix": "persistence",
+      "channel": "channel-57",
+      "comdexChannel": "channel-71",
+      "ibcDenomHash": "ibc/E437FFE5ABB5163FA7968BAF68146512B81E842DF05BA27E3B25E64B7CDC9AC7",
+      "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/xprt.svg",
+      "coinGeckoId": "persistence",
+      "explorerUrlToTx": "https://www.mintscan.io/persistence/txs/{txHash}",
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
+    },
+    {
+      "chainId": "akashnet-2",
+      "chainName": "akash",
+      "rpc": "https://rpc-akash.ecostake.com",
+      "rest": "https://rest-akash.ecostake.com",
+      "coinDenom": "uakt",
+      "coinMinimalDenom": "uakt",
+      "symbol": "AKT",
+      "coinDecimals": 6,
+      "coinType": 118,
+      "prefix": "akash",
+      "channel": "channel-52",
+      "comdexChannel": "channel-55",
+      "ibcDenomHash": "ibc/2B6FC3DC924A1400FAA6D63A112287D09403EF07AFF70ECCD131302DD801A373",
+      "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.svg",
+      "coinGeckoId": "akash-network",
+      "explorerUrlToTx": "https://www.mintscan.io/akash/txs/{txHash}",
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
     }
   ]
 }
