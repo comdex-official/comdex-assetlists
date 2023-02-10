@@ -325,7 +325,7 @@
       "symbol": "AKT",
       "coinDecimals": 6,
       "coinType": 118,
-      "prefix": "stride",
+      "prefix": "akash",
       "channel": "channel-52",
       "comdexChannel": "channel-55",
       "ibcDenomHash": "ibc/2B6FC3DC924A1400FAA6D63A112287D09403EF07AFF70ECCD131302DD801A373",
