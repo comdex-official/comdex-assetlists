@@ -25,8 +25,8 @@
     {
       "chainId": "osmosis-1",
       "chainName": "Osmosis",
-      "rpc": "https://osmosis-rpc.zenscape.one",
-      "rest": "https://osmosis-rest.zenscape.one",
+      "rpc": "https://osmosis-rpc.comdex.one/osmosis",
+      "rest": "https://osmosis-rest.comdex.one/osmosis",
       "coinDenom": "OSMO",
       "coinMinimalDenom": "uosmo",
       "symbol": "OSMO",
@@ -125,8 +125,8 @@
     {
       "chainId": "stride-1",
       "chainName": "stride",
-      "rpc": "https://stride-rpc.zenscape.one",
-      "rest": "https://stride-rest.zenscape.one",
+      "rpc": "https://stride-rpc.comdex.one/stride",
+      "rest": "https://stride-rest.comdex.one/stride",
       "coinDenom": "statom",
       "coinMinimalDenom": "stuatom",
       "symbol": "stATOM",
@@ -274,8 +274,8 @@
     {
       "chainId": "stride-1",
       "chainName": "stride",
-      "rpc": "https://stride-rpc.zenscape.one",
-      "rest": "https://stride-rest.zenscape.one",
+      "rpc": "https://stride-rpc.comdex.one/stride",
+      "rest": "https://stride-rest.comdex.one/stride",
       "coinDenom": "stosmo",
       "coinMinimalDenom": "stuosmo",
       "symbol": "stOSMO",
