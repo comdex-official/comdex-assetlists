@@ -359,8 +359,8 @@
     {
       "chainId": "mantle-1",
       "chainName": "assetmantle",
-      "rpc": "https://rpc.assetmantle.one",
-      "rest": "https://rest.assetmantle.one",
+      "rpc": "https://assetmantle-rpc.comdex.one/assetmantle",
+      "rest": "https://assetmantle-rest.comdex.one/assetmantle",
       "coinDenom": "mntl",
       "coinMinimalDenom": "umntl",
       "symbol": "MNTL",
