@@ -336,6 +336,47 @@
         "ibc-transfer",
         "ibc-go"
       ]
+    },
+    {
+      "chainId": "axelar-dojo-1",
+      "chainName": "Axelar",
+      "coinDenom": "wftm",
+      "coinMinimalDenom": "wftm-wei",
+      "symbol": "WFTM",
+      "coinDecimals": 18,
+      "coinType": 118,
+      "channel": "channel-31",
+      "comdexChannel": "channel-34",
+      "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/fantom/images/ftm.png",
+      "ibcDenomHash": "ibc/78A0828C273648513517BC6C10D9F7F2768472DD5C0F88B27CB54E346CB57D59",
+      "depositUrlOverride": "https://satellite.money/?destination_address=&asset_denom=ftm&source=fantom&destination=comdex",
+      "withdrawUrlOverride": "https://satellite.money/?destination_address=&asset_denom=wftm-wei&source=comdex&destination=fantom",
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
+    },
+    {
+      "chainId": "mantle-1",
+      "chainName": "assetmantle",
+      "rpc": "https://rpc.assetmantle.one",
+      "rest": "https://rest.assetmantle.one",
+      "coinDenom": "mntl",
+      "coinMinimalDenom": "umntl",
+      "symbol": "MNTL",
+      "coinDecimals": 6,
+      "coinType": 118,
+      "prefix": "mantle",
+      "channel": "channel-17",
+      "comdexChannel": "channel-59",
+      "ibcDenomHash": "ibc/CA83E725FE62B05289379740308469FD6BA5B0A216D37D3C0E71DBF3618DD535",
+      "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/assetmantle/images/mntl.png",
+      "coinGeckoId": "assetmantle",
+      "explorerUrlToTx": "https://www.mintscan.io/asset-mantle/txs/{txHash}",
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
     }
   ]
 }
