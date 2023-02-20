@@ -366,7 +366,7 @@
       "coinType": 118,
       "channel": "channel-31",
       "comdexChannel": "channel-34",
-      "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/fantom/images/ftm.png",
+      "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polygon/images/wmatic.png",
       "ibcDenomHash": "uwmatic",
       "depositUrlOverride": "https://satellite.money/?destination_address=&asset_denom=wmatic-wei&source=fantom&destination=comdex",
       "withdrawUrlOverride": "https://satellite.money/?destination_address=&asset_denom=wmatic-wei&source=comdex&destination=fantom",
