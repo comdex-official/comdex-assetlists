@@ -198,7 +198,7 @@
       "ibcDenomHash": "ibc/D01562AB9C4CC84E06A84FFA213C7592508120C3F91EFFB1E62117D5932C2B1F",
       "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/images/evmos.svg",
       "coinGeckoId": "evmos",
-      "explorerUrlToTx": "https://www.mintscan.io/evmos/txs/${txHash}",
+      "explorerUrlToTx": "https://www.mintscan.io/evmos/txs/{txHash}",
       "features": [
         "ibc-transfer",
         "ibc-go",
@@ -241,7 +241,7 @@
       "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/luna.png",
       "ibcDenomHash": "ibc/0695E3FA2C74C608E9573025598A7BD4297BE15180F86707B2118E513DBF4A5A",
       "coinGeckoId": "terra",
-      "explorerUrlToTx": "https://finder.terra.money/mainnet/tx/${txHash}",
+      "explorerUrlToTx": "https://finder.terra.money/mainnet/tx/{txHash}",
       "features": [
         "ibc-transfer",
         "ibc-go"
@@ -263,7 +263,7 @@
       "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/canto/images/canto.png",
       "ibcDenomHash": "ibc/E910718AB26DC0E05677D9B034CF23F17B5B468A464B0CB873A0BE65398DBFBD",
       "coinGeckoId": "canto",
-      "explorerUrlToTx": "https://cosmos-explorers.neobase.one/canto/tx/${txHash}",
+      "explorerUrlToTx": "https://cosmos-explorers.neobase.one/canto/tx/{txHash}",
       "features": [
         "ibc-transfer",
         "ibc-go",
