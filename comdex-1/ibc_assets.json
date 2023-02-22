@@ -383,7 +383,7 @@
       "chainName": "Axelar",
       "coinDenom": "shib",
       "coinMinimalDenom": "shib-wei",
-      "symbol": "SHIB",
+      "symbol": "AXLSHIB",
       "coinDecimals": 18,
       "coinType": 118,
       "channel": "channel-31",
