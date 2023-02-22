@@ -400,8 +400,8 @@
     {
       "chainId": "chihuahua-1",
       "chainName": "chihuahua",
-      "rpc": "https://rpc.chihuahua.wtf",
-      "rest": "https://api.chihuahua.wtf",
+      "rpc": "https://chihuahua-rpc.comdex.one/chihuahua",
+      "rest": "https://chihuahua-rest.comdex.one/chihuahua",
       "coinDenom": "huahua",
       "coinMinimalDenom": "uhuahua",
       "symbol": "HUAHUA",
