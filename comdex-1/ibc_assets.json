@@ -401,28 +401,6 @@
       ]
     },
     {
-      "chainId": "gravity-bridge-3",
-      "chainName": "gravitybridge",
-      "rpc": "https://gravitybridge-rpc.comdex.one/gravitybridge",
-      "rest": "https://gravitybridge-rest.comdex.one/gravitybridge",
-      "coinDenom": "gdai",
-      "coinMinimalDenom": "gravity0x6B175474E89094C44Da98b954EedeAC495271d0F",
-      "symbol": "GDAI",
-      "coinDecimals": 18,
-      "coinType": 118,
-      "prefix": "gravity",
-      "channel": "channel-21",
-      "comdexChannel": "channel-23",
-      "ibcDenomHash": "ibc/109DD45CF4093BEB472784A0C5B5F4643140900020B74B102B842A4BE2AE45DA",
-      "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/dai.svg",
-      "coinGeckoId": "gravity-bridge-dai",
-      "explorerUrlToTx": "https://www.mintscan.io/gravity-bridge/${txHash}",
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
-    },
-    {
       "chainId": "axelar-dojo-1",
       "chainName": "Axelar",
       "coinDenom": "shib",
