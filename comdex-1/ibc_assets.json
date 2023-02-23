@@ -377,6 +377,50 @@
         "ibc-transfer",
         "ibc-go"
       ]
+    },
+    {
+      "chainId": "gravity-bridge-3",
+      "chainName": "gravitybridge",
+      "rpc": "https://gravitychain.io:26657",
+      "rest": "https://gravitychain.io:1317",
+      "coinDenom": "gusdc",
+      "coinMinimalDenom": "gravity0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+      "symbol": "GUSDC",
+      "coinDecimals": 6,
+      "coinType": 118,
+      "prefix": "gravity",
+      "channel": "channel-21",
+      "comdexChannel": "channel-23",
+      "ibcDenomHash": "ibc/50EF138042B553362774A8A9DE967F610E52CAEB3BA864881C9A1436DED98075",
+      "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg",
+      "coinGeckoId": "gravity-bridge-usdc",
+      "explorerUrlToTx": "https://www.mintscan.io/gravity-bridge/${txHash}",
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
+    },
+    {
+      "chainId": "gravity-bridge-3",
+      "chainName": "gravitybridge",
+      "rpc": "https://gravitychain.io:26657",
+      "rest": "https://gravitychain.io:1317",
+      "coinDenom": "gdai",
+      "coinMinimalDenom": "gravity0x6B175474E89094C44Da98b954EedeAC495271d0F",
+      "symbol": "GDAI",
+      "coinDecimals": 18,
+      "coinType": 118,
+      "prefix": "gravity",
+      "channel": "channel-21",
+      "comdexChannel": "channel-23",
+      "ibcDenomHash": "ibc/109DD45CF4093BEB472784A0C5B5F4643140900020B74B102B842A4BE2AE45DA",
+      "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/dai.svg",
+      "coinGeckoId": "gravity-bridge-dai",
+      "explorerUrlToTx": "https://www.mintscan.io/gravity-bridge/${txHash}",
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
     }
   ]
 }
