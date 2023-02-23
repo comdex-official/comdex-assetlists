@@ -381,8 +381,8 @@
     {
       "chainId": "gravity-bridge-3",
       "chainName": "gravitybridge",
-      "rpc": "https://gravitychain.io:26657",
-      "rest": "https://gravitychain.io:1317",
+      "rpc": "https://gravitybridge-rpc.comdex.one/gravitybridge",
+      "rest": "https://gravitybridge-rest.comdex.one/gravitybridge",
       "coinDenom": "gusdc",
       "coinMinimalDenom": "gravity0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
       "symbol": "GUSDC",
