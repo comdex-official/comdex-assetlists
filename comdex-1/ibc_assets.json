@@ -403,8 +403,8 @@
     {
       "chainId": "gravity-bridge-3",
       "chainName": "gravitybridge",
-      "rpc": "https://gravitychain.io:26657",
-      "rest": "https://gravitychain.io:1317",
+      "rpc": "https://gravitybridge-rpc.comdex.one/gravitybridge",
+      "rest": "https://gravitybridge-rest.comdex.one/gravitybridge",
       "coinDenom": "gdai",
       "coinMinimalDenom": "gravity0x6B175474E89094C44Da98b954EedeAC495271d0F",
       "symbol": "GDAI",
