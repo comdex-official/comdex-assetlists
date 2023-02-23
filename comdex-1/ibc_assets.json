@@ -198,7 +198,7 @@
       "ibcDenomHash": "ibc/D01562AB9C4CC84E06A84FFA213C7592508120C3F91EFFB1E62117D5932C2B1F",
       "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/images/evmos.svg",
       "coinGeckoId": "evmos",
-      "explorerUrlToTx": "https://www.mintscan.io/evmos/txs/${txHash}",
+      "explorerUrlToTx": "https://www.mintscan.io/evmos/txs/{txHash}",
       "features": [
         "ibc-transfer",
         "ibc-go",
@@ -241,7 +241,7 @@
       "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/luna.png",
       "ibcDenomHash": "ibc/0695E3FA2C74C608E9573025598A7BD4297BE15180F86707B2118E513DBF4A5A",
       "coinGeckoId": "terra",
-      "explorerUrlToTx": "https://finder.terra.money/mainnet/tx/${txHash}",
+      "explorerUrlToTx": "https://finder.terra.money/mainnet/tx/{txHash}",
       "features": [
         "ibc-transfer",
         "ibc-go"
@@ -263,7 +263,7 @@
       "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/canto/images/canto.png",
       "ibcDenomHash": "ibc/E910718AB26DC0E05677D9B034CF23F17B5B468A464B0CB873A0BE65398DBFBD",
       "coinGeckoId": "canto",
-      "explorerUrlToTx": "https://cosmos-explorers.neobase.one/canto/tx/${txHash}",
+      "explorerUrlToTx": "https://cosmos-explorers.neobase.one/canto/tx/{txHash}",
       "features": [
         "ibc-transfer",
         "ibc-go",
@@ -417,6 +417,47 @@
       "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/dai.svg",
       "coinGeckoId": "gravity-bridge-dai",
       "explorerUrlToTx": "https://www.mintscan.io/gravity-bridge/${txHash}",
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
+    },
+    {
+      "chainId": "axelar-dojo-1",
+      "chainName": "Axelar",
+      "coinDenom": "shib",
+      "coinMinimalDenom": "shib-wei",
+      "symbol": "SHIB",
+      "coinDecimals": 18,
+      "coinType": 118,
+      "channel": "channel-31",
+      "comdexChannel": "channel-34",
+      "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/shib.svg",
+      "ibcDenomHash": "ibc/1F18934D62FFDA25C75ED7974EE34DB018BA004B58C42D46EB49AF41BB01AF01",
+      "depositUrlOverride": "https://satellite.money/?destination_address=&asset_denom=shib-wei&source=ethereum&destination=comdex",
+      "withdrawUrlOverride": "https://satellite.money/?destination_address=&asset_denom=shib-wei&source=comdex&destination=ethereum",
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
+    },
+    {
+      "chainId": "chihuahua-1",
+      "chainName": "chihuahua",
+      "rpc": "https://chihuahua-rpc.comdex.one/chihuahua",
+      "rest": "https://chihuahua-rest.comdex.one/chihuahua",
+      "coinDenom": "huahua",
+      "coinMinimalDenom": "uhuahua",
+      "symbol": "HUAHUA",
+      "coinDecimals": 6,
+      "coinType": 118,
+      "prefix": "chihuahua",
+      "channel": "channel-37",
+      "comdexChannel": "channel-61",
+      "ibcDenomHash": "ibc/FF6058DDFA9F0885B30D0F6A64BF37CB9A1C6A5DDF19CB204502D9B9577DF1F7",
+      "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/huahua.svg",
+      "coinGeckoId": "chihuahua-token",
+      "explorerUrlToTx": "https://www.mintscan.io/chihuahua/txs/{txHash}",
       "features": [
         "ibc-transfer",
         "ibc-go"
