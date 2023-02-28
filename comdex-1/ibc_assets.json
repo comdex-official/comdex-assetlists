@@ -229,7 +229,7 @@
       "chainId": "phoenix-1",
       "chainName": "terra2",
       "rpc": "https://terra-rpc.comdex.one/terra",
-      "rest": "https://terra-rest.comdex.one/terram",
+      "rest": "https://terra-rest.comdex.one/terra",
       "coinDenom": "LUNA",
       "coinMinimalDenom": "uluna",
       "symbol": "LUNA",
