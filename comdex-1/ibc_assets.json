@@ -440,10 +440,8 @@
         "ibc-transfer",
         "ibc-go"
       ]
-    }
-  ]
-},
-{
+    },
+    {
       "chainId": "core-1",
       "chainName": "persistence",
       "rpc": "https://persistence-rpc.comdex.one/persistence",
@@ -464,6 +462,8 @@
         "ibc-transfer",
         "ibc-go"
       ]
+    }
+  ]
 }
 
 
