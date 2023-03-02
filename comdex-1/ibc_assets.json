@@ -442,4 +442,34 @@
       ]
     }
   ]
+},
+{
+      "chainId": "core-1",
+      "chainName": "persistence",
+      "rpc": "https://persistence-rpc.comdex.one/persistence",
+      "rest": "https://persistence-rest.comdex.one/persistence",
+      "coinDenom": "stkATOM",
+      "coinMinimalDenom": "stkATOM",
+      "symbol": "stkATOM",
+      "coinDecimals": 6,
+      "coinType": 118,
+      "prefix": "persistence",
+      "channel": "channel-71",
+      "comdexChannel": "channel-57",
+      "ibcDenomHash": "ibc/69E9014ACB503CFE1DD9F3C29133325ECC4DE82E55C3C519015120BF29924882",
+      "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkatom.svg",
+      "coinGeckoId": "stkatom",
+      "explorerUrlToTx": "https://www.mintscan.io/persistence/txs/{txHash}",
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
 }
+
+
+
+
+
+
+
+
