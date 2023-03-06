@@ -484,6 +484,70 @@
         "ibc-transfer",
         "ibc-go"
       ]
+    },
+    {
+      "chainId": "stride-1",
+      "chainName": "stride",
+      "rpc": "https://stride-rpc.comdex.one/stride",
+      "rest": "https://stride-rest.comdex.one/stride",
+      "coinDenom": "stjuno",
+      "coinMinimalDenom": "stujuno",
+      "symbol": "stJUNO",
+      "coinDecimals": 6,
+      "coinType": 118,
+      "prefix": "stride",
+      "channel": "channel-49",
+      "comdexChannel": "channel-45",
+      "ibcDenomHash": "ibc/62D4ADCCD754F4511E22C34496D37957F95F5B11AE7C0D9BFDE19A5939B1CEA5",
+      "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stjuno.svg",
+      "coinGeckoId": "stride-staked-juno",
+      "explorerUrlToTx": "https://www.mintscan.io/stride/txs/{txHash}",
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
+    },
+    {
+      "chainId": "stride-1",
+      "chainName": "stride",
+      "rpc": "https://stride-rpc.comdex.one/stride",
+      "rest": "https://stride-rest.comdex.one/stride",
+      "coinDenom": "stluna",
+      "coinMinimalDenom": "stuluna",
+      "symbol": "stLUNA",
+      "coinDecimals": 6,
+      "coinType": 118,
+      "prefix": "stride",
+      "channel": "channel-49",
+      "comdexChannel": "channel-45",
+      "ibcDenomHash": "ibc/42ECAF231EC6C17512CEF6325EF337BDC87A39CCBFF61142738DC271BBD15F2F",
+      "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stluna.svg",
+      "explorerUrlToTx": "https://www.mintscan.io/stride/txs/{txHash}",
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
+    },
+    {
+      "chainId": "stride-1",
+      "chainName": "stride",
+      "rpc": "https://stride-rpc.comdex.one/stride",
+      "rest": "https://stride-rest.comdex.one/stride",
+      "coinDenom": "staevmos",
+      "coinMinimalDenom": "stevmos",
+      "symbol": "stEVMOS",
+      "coinDecimals": 18,
+      "coinType": 118,
+      "prefix": "stride",
+      "channel": "channel-49",
+      "comdexChannel": "channel-45",
+      "ibcDenomHash": "ibc/A2DF3F0A871DE38DDB91A7A2C545C317D6CD9F8FDBEB3482632D941ACC0B3696",
+      "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stevmos.svg",
+      "explorerUrlToTx": "https://www.mintscan.io/stride/txs/{txHash}",
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
     }
   ]
 }
