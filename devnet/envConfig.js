@@ -25,7 +25,7 @@ export const envConfig = {
   },
 
   cSwap: {
-    appId: 1,
+    appId: 2,
     masterPoolId: 1,
     websiteUrl: "https://devnet.cswap.one",
     networkTag: "Devnet",
