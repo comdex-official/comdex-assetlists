@@ -1,6 +1,6 @@
 export const envConfig = {
   rpc: "http://95.217.132.150:26657",
-  rest: "http://95.217.132.150:317",
+  rest: "http://95.217.132.150:1317",
   chainId: "test-1",
   coinDenom: "CMDX",
   coinMinimalDenom: "ucmdx",
