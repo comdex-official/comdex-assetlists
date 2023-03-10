@@ -25,7 +25,7 @@ export const envConfig = {
   },
 
   cSwap: {
-    appId: 1,
+    appId: 2,
     masterPoolId: 1,
     websiteUrl: "https://devnet.cswap.one",
     networkTag: "Devnet",
@@ -34,7 +34,7 @@ export const envConfig = {
   harbor: {
     title: "Harbor Protocol",
     websiteUrl: "https://devnet.harborprotocol.one",
-    appId: 2,
+    appId: 1,
     governanceContractAddress: "comdex17p9rzwnnfxcjp32un9ug7yhhzgtkhvl9jfksztgw5uh69wac2pgs4jg6dx",
     lockingContractAddress: "comdex1nc5tatafv6eyq7llkr2gv50ff9e22mnf70qgjlv737ktmt4eswrqdfklyz",
     airdropContractAddress: "comdex1ghd753shjuwexxywmgs4xz7x2q732vcnkm6h2pyv9s6ah3hylvrqfy9rd8",

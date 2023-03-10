@@ -49,7 +49,7 @@
       "chainName": "Axelar",
       "coinDenom": "USDC",
       "coinMinimalDenom": "uusdc",
-      "symbol": "USDC",
+      "symbol": "USDC.axl",
       "coinDecimals": 6,
       "coinType": 118,
       "channel": "channel-31",
@@ -65,8 +65,8 @@
     {
       "chainId": "juno-1",
       "chainName": "juno",
-      "rpc": "https://juno-rpc.polkachu.com",
-      "rest": "https://juno-api.polkachu.com",
+      "rpc": "https://juno-rpc.comdex.one/juno",
+      "rest": "https://juno-rest.comdex.one/juno",
       "coinDenom": "juno",
       "coinMinimalDenom": "ujuno",
       "symbol": "JUNO",
@@ -168,7 +168,7 @@
       "chainName": "Axelar",
       "coinDenom": "dai",
       "coinMinimalDenom": "dai-wei",
-      "symbol": "DAI",
+      "symbol": "DAI.axl",
       "coinDecimals": 18,
       "coinType": 118,
       "channel": "channel-31",
@@ -198,7 +198,7 @@
       "ibcDenomHash": "ibc/D01562AB9C4CC84E06A84FFA213C7592508120C3F91EFFB1E62117D5932C2B1F",
       "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/images/evmos.svg",
       "coinGeckoId": "evmos",
-      "explorerUrlToTx": "https://www.mintscan.io/evmos/txs/${txHash}",
+      "explorerUrlToTx": "https://www.mintscan.io/evmos/txs/{txHash}",
       "features": [
         "ibc-transfer",
         "ibc-go",
@@ -229,7 +229,7 @@
       "chainId": "phoenix-1",
       "chainName": "terra2",
       "rpc": "https://terra-rpc.comdex.one/terra",
-      "rest": "https://fcd.terrav2.ccvalidators.com",
+      "rest": "https://terra-rest.comdex.one/terra",
       "coinDenom": "LUNA",
       "coinMinimalDenom": "uluna",
       "symbol": "LUNA",
@@ -241,7 +241,7 @@
       "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/luna.png",
       "ibcDenomHash": "ibc/0695E3FA2C74C608E9573025598A7BD4297BE15180F86707B2118E513DBF4A5A",
       "coinGeckoId": "terra",
-      "explorerUrlToTx": "https://finder.terra.money/mainnet/tx/${txHash}",
+      "explorerUrlToTx": "https://finder.terra.money/mainnet/tx/{txHash}",
       "features": [
         "ibc-transfer",
         "ibc-go"
@@ -263,7 +263,7 @@
       "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/canto/images/canto.png",
       "ibcDenomHash": "ibc/E910718AB26DC0E05677D9B034CF23F17B5B468A464B0CB873A0BE65398DBFBD",
       "coinGeckoId": "canto",
-      "explorerUrlToTx": "https://cosmos-explorers.neobase.one/canto/tx/${txHash}",
+      "explorerUrlToTx": "https://cosmos-explorers.neobase.one/canto/tx/{txHash}",
       "features": [
         "ibc-transfer",
         "ibc-go",
@@ -296,8 +296,8 @@
     {
       "chainId": "core-1",
       "chainName": "persistence",
-      "rpc": "https://persistence-rpc.polkachu.com",
-      "rest": "https://persistence-api.polkachu.com",
+      "rpc": "https://persistence-rpc.comdex.one/persistence",
+      "rest": "https://persistence-rest.comdex.one/persistence",
       "coinDenom": "uxprt",
       "coinMinimalDenom": "uxprt",
       "symbol": "XPRT",
@@ -336,6 +336,226 @@
         "ibc-transfer",
         "ibc-go"
       ]
+    },
+    {
+      "chainId": "axelar-dojo-1",
+      "chainName": "Axelar",
+      "coinDenom": "wftm",
+      "coinMinimalDenom": "wftm-wei",
+      "symbol": "WFTM",
+      "coinDecimals": 18,
+      "coinType": 118,
+      "channel": "channel-31",
+      "comdexChannel": "channel-34",
+      "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/fantom/images/ftm.png",
+      "ibcDenomHash": "ibc/78A0828C273648513517BC6C10D9F7F2768472DD5C0F88B27CB54E346CB57D59",
+      "depositUrlOverride": "https://satellite.money/?destination_address=&asset_denom=ftm&source=fantom&destination=comdex",
+      "withdrawUrlOverride": "https://satellite.money/?destination_address=&asset_denom=wftm-wei&source=comdex&destination=fantom",
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
+    },
+    {
+      "chainId": "mantle-1",
+      "chainName": "assetmantle",
+      "rpc": "https://assetmantle-rpc.comdex.one/assetmantle",
+      "rest": "https://assetmantle-rest.comdex.one/assetmantle",
+      "coinDenom": "mntl",
+      "coinMinimalDenom": "umntl",
+      "symbol": "MNTL",
+      "coinDecimals": 6,
+      "coinType": 118,
+      "prefix": "mantle",
+      "channel": "channel-17",
+      "comdexChannel": "channel-59",
+      "ibcDenomHash": "ibc/CA83E725FE62B05289379740308469FD6BA5B0A216D37D3C0E71DBF3618DD535",
+      "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/assetmantle/images/mntl.png",
+      "coinGeckoId": "assetmantle",
+      "explorerUrlToTx": "https://www.mintscan.io/asset-mantle/txs/{txHash}",
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
+    },
+    {
+      "chainId": "gravity-bridge-3",
+      "chainName": "gravitybridge",
+      "rpc": "https://gravitybridge-rpc.comdex.one/gravitybridge",
+      "rest": "https://gravitybridge-rest.comdex.one/gravitybridge",
+      "coinDenom": "gusdc",
+      "coinMinimalDenom": "gravity0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+      "symbol": "USDC.grav",
+      "coinDecimals": 6,
+      "coinType": 118,
+      "prefix": "gravity",
+      "channel": "channel-21",
+      "comdexChannel": "channel-23",
+      "ibcDenomHash": "ibc/50EF138042B553362774A8A9DE967F610E52CAEB3BA864881C9A1436DED98075",
+      "logoURI": "https://raw.githubusercontent.com/comdex-official/comdex-assetlists/main/images/gusdc.svg",
+      "coinGeckoId": "gravity-bridge-usdc",
+      "explorerUrlToTx": "https://www.mintscan.io/gravity-bridge/${txHash}",
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
+    },
+    {
+      "chainId": "axelar-dojo-1",
+      "chainName": "Axelar",
+      "coinDenom": "shib",
+      "coinMinimalDenom": "shib-wei",
+      "symbol": "SHIB",
+      "coinDecimals": 18,
+      "coinType": 118,
+      "channel": "channel-31",
+      "comdexChannel": "channel-34",
+      "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/shib.svg",
+      "ibcDenomHash": "ibc/1F18934D62FFDA25C75ED7974EE34DB018BA004B58C42D46EB49AF41BB01AF01",
+      "depositUrlOverride": "https://satellite.money/?destination_address=&asset_denom=shib-wei&source=ethereum&destination=comdex",
+      "withdrawUrlOverride": "https://satellite.money/?destination_address=&asset_denom=shib-wei&source=comdex&destination=ethereum",
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
+    },
+    {
+      "chainId": "chihuahua-1",
+      "chainName": "chihuahua",
+      "rpc": "https://chihuahua-rpc.comdex.one/chihuahua",
+      "rest": "https://chihuahua-rest.comdex.one/chihuahua",
+      "coinDenom": "huahua",
+      "coinMinimalDenom": "uhuahua",
+      "symbol": "HUAHUA",
+      "coinDecimals": 6,
+      "coinType": 118,
+      "prefix": "chihuahua",
+      "channel": "channel-37",
+      "comdexChannel": "channel-61",
+      "ibcDenomHash": "ibc/FF6058DDFA9F0885B30D0F6A64BF37CB9A1C6A5DDF19CB204502D9B9577DF1F7",
+      "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/huahua.svg",
+      "coinGeckoId": "chihuahua-token",
+      "explorerUrlToTx": "https://www.mintscan.io/chihuahua/txs/{txHash}",
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
+    },
+    {
+      "chainId": "core-1",
+      "chainName": "persistence",
+      "rpc": "https://persistence-rpc.comdex.one/persistence",
+      "rest": "https://persistence-rest.comdex.one/persistence",
+      "coinDenom": "stkATOM",
+      "coinMinimalDenom": "stkATOM",
+      "symbol": "stkATOM",
+      "coinDecimals": 6,
+      "coinType": 118,
+      "prefix": "persistence",
+      "channel": "channel-71",
+      "comdexChannel": "channel-57",
+      "ibcDenomHash": "ibc/69E9014ACB503CFE1DD9F3C29133325ECC4DE82E55C3C519015120BF29924882",
+      "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkatom.svg",
+      "coinGeckoId": "stkatom",
+      "explorerUrlToTx": "https://www.mintscan.io/persistence/txs/{txHash}",
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
+    },
+    {
+      "chainId": "gravity-bridge-3",
+      "chainName": "gravitybridge",
+      "rpc": "https://gravitybridge-rpc.comdex.one/gravitybridge",
+      "rest": "https://gravitybridge-rest.comdex.one/gravitybridge",
+      "coinDenom": "gdai",
+      "coinMinimalDenom": "gravity0x6B175474E89094C44Da98b954EedeAC495271d0F",
+      "symbol": "DAI.grav",
+      "coinDecimals": 18,
+      "coinType": 118,
+      "prefix": "gravity",
+      "channel": "channel-21",
+      "comdexChannel": "channel-23",
+      "ibcDenomHash": "ibc/109DD45CF4093BEB472784A0C5B5F4643140900020B74B102B842A4BE2AE45DA",
+      "logoURI": "https://raw.githubusercontent.com/comdex-official/comdex-assetlists/main/images/gusdc.svg",
+      "coinGeckoId": "gravity-bridge-dai",
+      "explorerUrlToTx": "https://www.mintscan.io/gravity-bridge/${txHash}",
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
+    },
+    {
+      "chainId": "stride-1",
+      "chainName": "stride",
+      "rpc": "https://stride-rpc.comdex.one/stride",
+      "rest": "https://stride-rest.comdex.one/stride",
+      "coinDenom": "stjuno",
+      "coinMinimalDenom": "stujuno",
+      "symbol": "stJUNO",
+      "coinDecimals": 6,
+      "coinType": 118,
+      "prefix": "stride",
+      "channel": "channel-49",
+      "comdexChannel": "channel-45",
+      "ibcDenomHash": "ibc/62D4ADCCD754F4511E22C34496D37957F95F5B11AE7C0D9BFDE19A5939B1CEA5",
+      "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stjuno.svg",
+      "coinGeckoId": "stride-staked-juno",
+      "explorerUrlToTx": "https://www.mintscan.io/stride/txs/{txHash}",
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
+    },
+    {
+      "chainId": "stride-1",
+      "chainName": "stride",
+      "rpc": "https://stride-rpc.comdex.one/stride",
+      "rest": "https://stride-rest.comdex.one/stride",
+      "coinDenom": "stluna",
+      "coinMinimalDenom": "stuluna",
+      "symbol": "stLUNA",
+      "coinDecimals": 6,
+      "coinType": 118,
+      "prefix": "stride",
+      "channel": "channel-49",
+      "comdexChannel": "channel-45",
+      "ibcDenomHash": "ibc/42ECAF231EC6C17512CEF6325EF337BDC87A39CCBFF61142738DC271BBD15F2F",
+      "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stluna.svg",
+      "explorerUrlToTx": "https://www.mintscan.io/stride/txs/{txHash}",
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
+    },
+    {
+      "chainId": "stride-1",
+      "chainName": "stride",
+      "rpc": "https://stride-rpc.comdex.one/stride",
+      "rest": "https://stride-rest.comdex.one/stride",
+      "coinDenom": "staevmos",
+      "coinMinimalDenom": "stevmos",
+      "symbol": "stEVMOS",
+      "coinDecimals": 18,
+      "coinType": 118,
+      "prefix": "stride",
+      "channel": "channel-49",
+      "comdexChannel": "channel-45",
+      "ibcDenomHash": "ibc/A2DF3F0A871DE38DDB91A7A2C545C317D6CD9F8FDBEB3482632D941ACC0B3696",
+      "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stevmos.svg",
+      "explorerUrlToTx": "https://www.mintscan.io/stride/txs/{txHash}",
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
     }
   ]
 }
+
+
+
+
+
+
+
+
