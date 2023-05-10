@@ -38,7 +38,7 @@ export const envConfig = {
     governanceContractAddress:
       "comdex17p9rzwnnfxcjp32un9ug7yhhzgtkhvl9jfksztgw5uh69wac2pgs4jg6dx",
     lockingContractAddress:
-      "comdex1mf6ptkssddfmxvhdx0ech0k03ktp6kf9yk59renau2gvht3nq2gqcv5c56",
+      "comdex1nc5tatafv6eyq7llkr2gv50ff9e22mnf70qgjlv737ktmt4eswrqdfklyz",
     airdropContractAddress:
       "comdex1ghd753shjuwexxywmgs4xz7x2q732vcnkm6h2pyv9s6ah3hylvrqfy9rd8",
     harborAirdropApiUrl: "http://3.7.255.161",
