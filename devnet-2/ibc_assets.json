@@ -1,22 +1,6 @@
 {
   "tokens": [
     {
-      "rpc": "https://devnet.rpc.comdex.one",
-      "rest": "https://devnet.rest.comdex.one",
-      "chainId": "test-1",
-      "coinDenom": "CMST",
-      "coinMinimalDenom": "ucmst",
-      "coinDecimals": 6,
-      "prefix": "comdex",
-      "coinType": 118,
-      "chainName": "Comdex Test Chain",
-      "explorerUrlToTx": "https://dev-explorer.comdex.one/transactions/{txHash}",
-      "apiUrl": "https://test-stat.comdex.one",
-      "comdexStakingUrl": "https://comdex.omniflix.co/stake",
-      "webSocketApiUrl": "wss://devnet.rpc.comdex.one/websocket",
-      "symbol": "CMST"
-    },
-    {
       "chainId": "theta-testnet-001",
       "chainName": "Cosmos Hub Test",
       "rpc": "https://devnet.cswap.one/vega",
@@ -29,7 +13,7 @@
       "prefix": "cosmos",
       "channel": "channel-835",
       "comdexChannel": "channel-1",
-      "ibcDenomHash": "uatom",
+      "ibcDenomHash": "ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9",
       "logoURI": "https://raw.githubusercontent.com/osmosis-labs/assetlists/main/images/atom.svg",
       "coinGeckoId": "cosmos",
       "explorerUrlToTx": "https://explorer.theta-testnet.polypore.xyz/transactions/{txHash}"
@@ -47,7 +31,7 @@
       "prefix": "osmo",
       "channel": "channel-1498",
       "comdexChannel": "channel-0",
-      "ibcDenomHash": "uosmo",
+      "ibcDenomHash": "ibc/ED07A3391A112B175915CD8FAF43A2DA8E4790EDE12566649D0C2F97716B8518",
       "logoURI": "https://raw.githubusercontent.com/osmosis-labs/assetlists/main/images/osmo.svg",
       "coinGeckoId": "osmosis",
       "explorerUrlToTx": "https://bigdipper.testnet.osmo.mp20.net/transactions/{txHash}"
@@ -62,7 +46,7 @@
       "coinType": 118,
       "channel": "channel-62",
       "comdexChannel": "channel-18",
-      "ibcDenomHash": "usdc",
+      "ibcDenomHash": "ibc/EF8A76D0FD3F3F45D8DB7FEBFCF921206DF58CA41493ED16D69BF7B4E061C60C",
       "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/uausdc L@3x.png",
       "coinGeckoId": "axlusdc",
       "depositUrlOverride": "https://testnet.satellite.money/?source=ethereum&destination=comdex&asset_denom=uausdc&destination_address=",
@@ -78,11 +62,27 @@
       "coinType": 118,
       "channel": "channel-62",
       "comdexChannel": "channel-18",
-      "ibcDenomHash": "weth-wei",
+      "ibcDenomHash": "ibc/A99459944FD67B5711735B4B4D3FE30BA45328E94D437C78E47CA8DEFA781E49",
       "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/weth-wei L@3x.png",
       "coinGeckoId": "axlweth",
       "depositUrlOverride": "https://testnet.satellite.money/?source=ethereum&destination=comdex&asset_denom=weth-wei&destination_address=",
       "withdrawUrlOverride": "https://testnet.satellite.money/?source=comdex&destination=ethereum&asset_denom=weth-wei&destination_address="
+    },
+    {
+      "chainId": "stride-1",
+      "chainName": "Stride",
+      "coinDenom": "stake",
+      "coinMinimalDenom": "stake",
+      "symbol": "STAKE",
+      "coinDecimals": 6,
+      "coinType": 118,
+      "channel": "channel-62",
+      "comdexChannel": "channel-18",
+      "ibcDenomHash": "stake",
+      "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.png",
+      "coinGeckoId": "stake",
+      "explorerUrlToTx": "https://explorer.theta-testnet.polypore.xyz/transactions/{txHash}"
     }
   ]
 }
+
