@@ -14,7 +14,8 @@
       "apiUrl": "https://test-stat.comdex.one",
       "comdexStakingUrl": "https://comdex.omniflix.co/stake",
       "webSocketApiUrl": "wss://devnet.rpc.comdex.one/websocket",
-      "symbol": "CMST"
+      "symbol": "CMST",
+      "coinGeckoId" : "composite"
     },
     {
       "chainId": "theta-testnet-001",
