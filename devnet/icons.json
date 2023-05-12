@@ -8,10 +8,10 @@
     "uharbor": {
         "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/harbor.svg"
     },
-    "uosmo": {
+    "uatom": {
         "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg"
     },
-    "uatom": {
+    "uosmo": {
         "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.svg"
     },
     "weth-wei": {
