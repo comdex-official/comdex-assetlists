@@ -567,6 +567,28 @@
         "ibc-transfer",
         "ibc-go"
       ]
+    },
+    {
+      "chainId": "stride-1",
+      "chainName": "stride",
+      "rpc": "https://stride-rpc.comdex.one/stride",
+      "rest": "https://stride-rest.comdex.one/stride",
+      "coinDenom": "stcmdx",
+      "coinMinimalDenom": "stucmdx",
+      "symbol": "stCMDX",
+      "coinDecimals": 6,
+      "coinType": 118,
+      "prefix": "stride",
+      "channel": "channel-49",
+      "comdexChannel": "channel-45",
+      "ibcDenomHash": "ibc/1966B5EDCAE4F777CB3C83A83AEE3CBA182F2367A41BA61F4F5B9DC8FE606933",
+      "logoURI": "",
+      "coinGeckoId": "",
+      "explorerUrlToTx": "https://www.mintscan.io/stride/txs/{txHash}",
+      "features": [
+        "ibc-transfer",
+        "ibc-go"
+      ]
     }
   ]
 }
