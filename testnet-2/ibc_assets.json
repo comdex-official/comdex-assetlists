@@ -19,7 +19,7 @@
       "explorerUrlToTx": "https://explorer.theta-testnet.polypore.xyz/transactions/{txHash}"
     },
     {
-      "chainId": "osmo-test-4",
+      "chainId": "osmo-test-5",
       "chainName": "Osmosis-Test",
       "rpc": "https://osmot.rpc.comdex.one",
       "rest": "https://osmot.rest.comdex.one",
@@ -29,8 +29,8 @@
       "coinDecimals": 6,
       "coinType": 118,
       "prefix": "osmo",
-      "channel": "channel-1838",
-      "comdexChannel": "channel-4",
+      "channel": "channel-217",
+      "comdexChannel": "channel-17",
       "ibcDenomHash": "ibc/05AC4BBA78C5951339A47DD1BC1E7FC922A9311DF81C85745B1C162F516FF2F1",
       "logoURI": "https://raw.githubusercontent.com/osmosis-labs/assetlists/main/images/osmo.svg",
       "coinGeckoId": "osmosis",
