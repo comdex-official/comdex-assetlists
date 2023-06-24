@@ -141,7 +141,8 @@
       "explorerUrlToTx": "https://www.mintscan.io/stride/txs/{txHash}",
       "features": [
         "ibc-transfer",
-        "ibc-go"
+        "ibc-go",
+        "stride-hot-fix"
       ]
     },
     {
@@ -290,7 +291,8 @@
       "explorerUrlToTx": "https://www.mintscan.io/stride/txs/{txHash}",
       "features": [
         "ibc-transfer",
-        "ibc-go"
+        "ibc-go",
+        "stride-hot-fix"
       ]
     },
     {
@@ -504,7 +506,8 @@
       "explorerUrlToTx": "https://www.mintscan.io/stride/txs/{txHash}",
       "features": [
         "ibc-transfer",
-        "ibc-go"
+        "ibc-go",
+        "stride-hot-fix"
       ]
     },
     {
@@ -525,7 +528,8 @@
       "explorerUrlToTx": "https://www.mintscan.io/stride/txs/{txHash}",
       "features": [
         "ibc-transfer",
-        "ibc-go"
+        "ibc-go",
+        "stride-hot-fix"
       ]
     },
     {
@@ -546,7 +550,8 @@
       "explorerUrlToTx": "https://www.mintscan.io/stride/txs/{txHash}",
       "features": [
         "ibc-transfer",
-        "ibc-go"
+        "ibc-go",
+        "stride-hot-fix"
       ]
     },
     {
@@ -587,16 +592,9 @@
       "explorerUrlToTx": "https://www.mintscan.io/stride/txs/{txHash}",
       "features": [
         "ibc-transfer",
-        "ibc-go"
+        "ibc-go",
+        "stride-hot-fix"
       ]
     }
   ]
 }
-
-
-
-
-
-
-
-
