@@ -37,7 +37,7 @@ export const envConfig = {
     governanceContractAddress: "comdex17p9rzwnnfxcjp32un9ug7yhhzgtkhvl9jfksztgw5uh69wac2pgs4jg6dx",
     lockingContractAddress: "comdex1nc5tatafv6eyq7llkr2gv50ff9e22mnf70qgjlv737ktmt4eswrqdfklyz",
     airdropContractAddress: "comdex1xt4ahzz2x8hpkc0tk6ekte9x6crw4w6u0r67cyt3kz9syh24pd7s6erldv",
-    harborAirdropApiUrl: "http://3.7.255.161",
+    harborAirdropApiUrl: "",
     harborDashboardTVLApiUrl: "https://stat.comdex.one"
   },
 };
