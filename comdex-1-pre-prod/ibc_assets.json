@@ -17,10 +17,7 @@
       "logoURI": "https://raw.githubusercontent.com/osmosis-labs/assetlists/main/images/atom.svg",
       "coinGeckoId": "cosmos",
       "explorerUrlToTx": "https://www.mintscan.io/osmosis/txs/{txHash}",
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chainId": "osmosis-1",
@@ -39,10 +36,7 @@
       "logoURI": "https://raw.githubusercontent.com/osmosis-labs/assetlists/main/images/osmo.svg",
       "coinGeckoId": "osmosis",
       "explorerUrlToTx": "https://www.mintscan.io/osmosis/txs/{txHash}",
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chainId": "axelar-dojo-1",
@@ -57,10 +51,7 @@
       "ibcDenomHash": "ibc/E1616E7C19EA474C565737709A628D6F8A23FF9D3E9A7A6871306CF5E0A5341E",
       "depositUrlOverride": "https://satellite.money/?source=ethereum&destination=comdex&asset_denom=uausdc&destination_address=",
       "withdrawUrlOverride": "https://satellite.money/?source=comdex&destination=ethereum&asset_denom=uausdc&destination_address=",
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chainId": "juno-1",
@@ -79,10 +70,7 @@
       "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/blob/master/juno/images/juno.svg",
       "coinGeckoId": "juno-network",
       "explorerUrlToTx": "https://www.mintscan.io/juno/txs/{txHash}",
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chainId": "axelar-dojo-1",
@@ -98,10 +86,7 @@
       "ibcDenomHash": "ibc/81C3A46287D7664A8FD19843AC8D0CFD6C284EF1F750C661C48B3544277B1B29",
       "depositUrlOverride": "https://satellite.money/?destination_address=&asset_denom=weth-wei&source=ethereum&destination=comdex",
       "withdrawUrlOverride": "https://satellite.money/?destination_address=&asset_denom=weth-wei&source=comdex&destination=ethereum",
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chainId": "axelar-dojo-1",
@@ -117,10 +102,7 @@
       "ibcDenomHash": "ibc/0A6F20FA34BEBB63568E44C81C6E154C63ED061BA45E7EBC144B24C0DBBD0A4F",
       "depositUrlOverride": "https://satellite.money/?destination_address=&asset_denom=wbtc-satoshi&source=ethereum&destination=comdex",
       "withdrawUrlOverride": "https://satellite.money/?destination_address=&asset_denom=wbtc-satoshi&source=comdex&destination=ethereum",
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chainId": "stride-1",
@@ -139,10 +121,7 @@
       "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.svg",
       "coinGeckoId": "stride-staked-atom",
       "explorerUrlToTx": "https://www.mintscan.io/stride/txs/{txHash}",
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chainId": "axelar-dojo-1",
@@ -158,10 +137,7 @@
       "ibcDenomHash": "ibc/E8F0355CBC21AFD4C758E93383D28404D19AEB81E8251A63FAA0C250672ADBEF",
       "depositUrlOverride": "https://satellite.money/?destination_address=&asset_denom=wmatic-wei&source=ethereum&destination=comdex",
       "withdrawUrlOverride": "https://satellite.money/?destination_address=&asset_denom=wmatic-wei&source=comdex&destination=ethereum",
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chainId": "axelar-dojo-1",
@@ -177,10 +153,7 @@
       "ibcDenomHash": "ibc/54DEF693B7C4BF171E7FFF3ABFE2B54D6A3B8A047A32BAAE9F1417A378594EC6",
       "depositUrlOverride": "https://satellite.money/?destination_address=&asset_denom=dai-wei&source=ethereum&destination=comdex",
       "withdrawUrlOverride": "https://satellite.money/?destination_address=&asset_denom=dai-wei&source=comdex&destination=ethereum",
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chainId": "evmos_9001-2",
@@ -199,12 +172,7 @@
       "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/images/evmos.svg",
       "coinGeckoId": "evmos",
       "explorerUrlToTx": "https://www.mintscan.io/evmos/txs/{txHash}",
-      "features": [
-        "ibc-transfer",
-        "ibc-go",
-        "eth-address-gen",
-        "eth-key-sign"
-      ]
+      "features": ["ibc-transfer", "ibc-go", "eth-address-gen", "eth-key-sign"]
     },
     {
       "chainId": "axelar-dojo-1",
@@ -220,10 +188,7 @@
       "ibcDenomHash": "ibc/EC7576E3F8D254787264F0972E6518E42CFFB5305EC9D0BC7DD7B7FFEFACB28A",
       "depositUrlOverride": "https://satellite.money/?destination_address=&asset_denom=wbnb-wei&source=ethereum&destination=comdex",
       "withdrawUrlOverride": "https://satellite.money/?destination_address=&asset_denom=wbnb-wei&source=comdex&destination=ethereum",
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chainId": "phoenix-1",
@@ -242,10 +207,7 @@
       "ibcDenomHash": "ibc/0695E3FA2C74C608E9573025598A7BD4297BE15180F86707B2118E513DBF4A5A",
       "coinGeckoId": "terra",
       "explorerUrlToTx": "https://finder.terra.money/mainnet/tx/{txHash}",
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chainId": "canto_7700-1",
@@ -264,12 +226,7 @@
       "ibcDenomHash": "ibc/E910718AB26DC0E05677D9B034CF23F17B5B468A464B0CB873A0BE65398DBFBD",
       "coinGeckoId": "canto",
       "explorerUrlToTx": "https://cosmos-explorers.neobase.one/canto/tx/{txHash}",
-      "features": [
-        "ibc-transfer",
-        "ibc-go",
-        "eth-address-gen",
-        "eth-key-sign"
-      ]
+      "features": ["ibc-transfer", "ibc-go", "eth-address-gen", "eth-key-sign"]
     },
     {
       "chainId": "stride-1",
@@ -288,10 +245,7 @@
       "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stosmo.svg",
       "coinGeckoId": "stride-staked-osmo",
       "explorerUrlToTx": "https://www.mintscan.io/stride/txs/{txHash}",
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chainId": "core-1",
@@ -310,10 +264,7 @@
       "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/xprt.svg",
       "coinGeckoId": "persistence",
       "explorerUrlToTx": "https://www.mintscan.io/persistence/txs/{txHash}",
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chainId": "akashnet-2",
@@ -332,10 +283,7 @@
       "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.svg",
       "coinGeckoId": "akash-network",
       "explorerUrlToTx": "https://www.mintscan.io/akash/txs/{txHash}",
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chainId": "axelar-dojo-1",
@@ -351,10 +299,7 @@
       "ibcDenomHash": "ibc/78A0828C273648513517BC6C10D9F7F2768472DD5C0F88B27CB54E346CB57D59",
       "depositUrlOverride": "https://satellite.money/?destination_address=&asset_denom=ftm&source=fantom&destination=comdex",
       "withdrawUrlOverride": "https://satellite.money/?destination_address=&asset_denom=wftm-wei&source=comdex&destination=fantom",
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chainId": "mantle-1",
@@ -373,10 +318,7 @@
       "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/assetmantle/images/mntl.png",
       "coinGeckoId": "assetmantle",
       "explorerUrlToTx": "https://www.mintscan.io/asset-mantle/txs/{txHash}",
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chainId": "gravity-bridge-3",
@@ -395,10 +337,7 @@
       "logoURI": "https://raw.githubusercontent.com/comdex-official/comdex-assetlists/main/images/gusdc.svg",
       "coinGeckoId": "gravity-bridge-usdc",
       "explorerUrlToTx": "https://www.mintscan.io/gravity-bridge/${txHash}",
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chainId": "axelar-dojo-1",
@@ -414,10 +353,7 @@
       "ibcDenomHash": "ibc/1F18934D62FFDA25C75ED7974EE34DB018BA004B58C42D46EB49AF41BB01AF01",
       "depositUrlOverride": "https://satellite.money/?destination_address=&asset_denom=shib-wei&source=ethereum&destination=comdex",
       "withdrawUrlOverride": "https://satellite.money/?destination_address=&asset_denom=shib-wei&source=comdex&destination=ethereum",
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chainId": "chihuahua-1",
@@ -436,10 +372,7 @@
       "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/huahua.svg",
       "coinGeckoId": "chihuahua-token",
       "explorerUrlToTx": "https://www.mintscan.io/chihuahua/txs/{txHash}",
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chainId": "core-1",
@@ -458,10 +391,7 @@
       "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/stkatom.svg",
       "coinGeckoId": "stkatom",
       "explorerUrlToTx": "https://www.mintscan.io/persistence/txs/{txHash}",
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chainId": "gravity-bridge-3",
@@ -480,10 +410,7 @@
       "logoURI": "https://raw.githubusercontent.com/comdex-official/comdex-assetlists/main/images/gusdc.svg",
       "coinGeckoId": "gravity-bridge-dai",
       "explorerUrlToTx": "https://www.mintscan.io/gravity-bridge/${txHash}",
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chainId": "stride-1",
@@ -502,10 +429,7 @@
       "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stjuno.svg",
       "coinGeckoId": "stride-staked-juno",
       "explorerUrlToTx": "https://www.mintscan.io/stride/txs/{txHash}",
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chainId": "stride-1",
@@ -523,10 +447,7 @@
       "ibcDenomHash": "ibc/42ECAF231EC6C17512CEF6325EF337BDC87A39CCBFF61142738DC271BBD15F2F",
       "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stluna.svg",
       "explorerUrlToTx": "https://www.mintscan.io/stride/txs/{txHash}",
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
     },
     {
       "chainId": "stride-1",
@@ -544,18 +465,42 @@
       "ibcDenomHash": "ibc/A2DF3F0A871DE38DDB91A7A2C545C317D6CD9F8FDBEB3482632D941ACC0B3696",
       "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stevmos.svg",
       "explorerUrlToTx": "https://www.mintscan.io/stride/txs/{txHash}",
-      "features": [
-        "ibc-transfer",
-        "ibc-go"
-      ]
+      "features": ["ibc-transfer", "ibc-go"]
+    },
+    {
+      "chainId": "stride-1",
+      "chainName": "stride",
+      "rpc": "https://stride-rpc.comdex.one/stride",
+      "rest": "https://stride-rest.comdex.one/stride",
+      "coinDenom": "stcmdx",
+      "coinMinimalDenom": "stucmdx",
+      "symbol": "stCMDX",
+      "coinDecimals": 6,
+      "coinType": 118,
+      "prefix": "stride",
+      "channel": "channel-49",
+      "comdexChannel": "channel-45",
+      "ibcDenomHash": "ibc/1966B5EDCAE4F777CB3C83A83AEE3CBA182F2367A41BA61F4F5B9DC8FE606933",
+      "logoURI": "",
+      "coinGeckoId": "",
+      "explorerUrlToTx": "https://www.mintscan.io/stride/txs/{txHash}",
+      "features": ["ibc-transfer", "ibc-go", "stride-hot-fix"]
+    },
+    {
+      "chainId": "axelar-dojo-1",
+      "chainName": "Axelar",
+      "coinDenom": "arb",
+      "coinMinimalDenom": "arb-wei",
+      "symbol": "ARB",
+      "coinDecimals": 18,
+      "coinType": 118,
+      "channel": "channel-31",
+      "comdexChannel": "channel-34",
+      "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/arbitrum/images/arb.svg",
+      "ibcDenomHash": "ibc/1398C0819479AA74844272A00CBFA44D1E7222E70CC7CC06DE4AAC96527C3B67",
+      "depositUrlOverride": "https://satellite.money/?destination_address=&asset_denom=arb-wei&source=arbitrum&destination=comdex",
+      "withdrawUrlOverride": "https://satellite.money/?destination_address=&asset_denom=arb-wei&source=comdex&destination=arbitrum",
+      "features": ["ibc-transfer", "ibc-go"]
     }
   ]
 }
-
-
-
-
-
-
-
-
