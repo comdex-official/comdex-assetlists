@@ -72,7 +72,7 @@
       "chainId": "stride-1",
       "chainName": "stride",
       "coinDenom": "statom",
-      "coinMinimalDenom": "ustatom",
+      "coinMinimalDenom": "stuatom",
       "symbol": "stATOM",
       "coinDecimals": 6,
       "coinType": 118,
