@@ -67,6 +67,21 @@
       "coinGeckoId": "axlweth",
       "depositUrlOverride": "https://testnet.satellite.money/?source=ethereum&destination=comdex&asset_denom=weth-wei&destination_address=",
       "withdrawUrlOverride": "https://testnet.satellite.money/?source=comdex&destination=ethereum&asset_denom=weth-wei&destination_address="
+    },
+    {
+      "chainId": "stride-1",
+      "chainName": "stride",
+      "coinDenom": "statom",
+      "coinMinimalDenom": "stuatom",
+      "symbol": "stATOM",
+      "coinDecimals": 6,
+      "coinType": 118,
+      "prefix": "stride",
+      "channel": "channel-49",
+      "comdexChannel": "channel-45",
+      "ibcDenomHash": "ustatom",
+      "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.svg",
+      "coinGeckoId": "stride-staked-atom",
     }
   ]
 }
