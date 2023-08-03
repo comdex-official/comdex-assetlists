@@ -81,7 +81,7 @@
       "comdexChannel": "channel-45",
       "ibcDenomHash": "ustatom",
       "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.svg",
-      "coinGeckoId": "stride-staked-atom",
+      "coinGeckoId": "stride-staked-atom"
     }
   ]
 }
