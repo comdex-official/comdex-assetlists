@@ -82,6 +82,21 @@
       "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.png",
       "coinGeckoId": "stake",
       "explorerUrlToTx": "https://explorer.theta-testnet.polypore.xyz/transactions/{txHash}"
+    },
+    {
+      "chainId": "stride-1",
+      "chainName": "stride",
+      "coinDenom": "statom",
+      "coinMinimalDenom": "ustatom",
+      "symbol": "stATOM",
+      "coinDecimals": 6,
+      "coinType": 118,
+      "prefix": "stride",
+      "channel": "channel-49",
+      "comdexChannel": "channel-45",
+      "ibcDenomHash": "ustatom",
+      "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.svg",
+      "coinGeckoId": "stride-staked-atom",
     }
   ]
 }
