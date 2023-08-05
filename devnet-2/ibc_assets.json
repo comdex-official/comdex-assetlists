@@ -41,7 +41,7 @@
       "chainName": "Axelar-Test",
       "coinDenom": "USDC",
       "coinMinimalDenom": "uusdc",
-      "symbol": "USDC",
+      "symbol": "USDC.axl",
       "coinDecimals": 6,
       "coinType": 118,
       "channel": "channel-62",
