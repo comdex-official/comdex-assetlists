@@ -1,6 +1,6 @@
 export const envConfig = {
-  rpc: "https://comdex-dapps-rpc.zenscape.one/rpc",
-  rest: "https://comdex-dapps-rest.zenscape.one/rest",
+  rpc: "https://comdex-dapp-rpc.zenscape.one/rpc",
+  rest: "https://comdex-dapp-rest.zenscape.one/rest",
   chainId: "comdex-1",
   coinDenom: "CMDX",
   coinMinimalDenom: "ucmdx",
