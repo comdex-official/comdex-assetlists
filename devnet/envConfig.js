@@ -1,7 +1,7 @@
 export const envConfig = {
   rpc: "https://devnet.rpc.comdex.one",
   rest: "https://devnet.rest.comdex.one",
-  chainId: "test-3",
+  chainId: "test-1",
   coinDenom: "CMDX",
   coinMinimalDenom: "ucmdx",
   coinDecimals: 6,
