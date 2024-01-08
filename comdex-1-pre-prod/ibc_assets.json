@@ -501,6 +501,25 @@
       "depositUrlOverride": "https://satellite.money/?destination_address=&asset_denom=arb-wei&source=arbitrum&destination=comdex",
       "withdrawUrlOverride": "https://satellite.money/?destination_address=&asset_denom=arb-wei&source=comdex&destination=arbitrum",
       "features": ["ibc-transfer", "ibc-go"]
+    },
+    {
+      "chainId": "noble-1",
+      "chainName": "Noble",
+      "rpc": "https://noble-rpc.polkachu.com",
+      "rest": "https://noble-api.polkachu.com",
+      "coinDenom": "usdc",
+      "coinMinimalDenom": "uusdc",
+      "symbol": "NUSDC",
+      "coinDecimals": 6,
+      "coinType": 118,
+      "prefix": "noble",
+      "channel": "channel-53",
+      "comdexChannel": "channel-87",
+      "ibcDenomHash": "ibc/D031367F58DFD5EED54A49ADCB4EFB44AD9ECCAE383708BFDCCACF3CF463B77C",
+      "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDCoin.svg",
+      "coinGeckoId": "usd-coin",
+      "explorerUrlToTx": "https://www.mintscan.io/noble/txs/{txHash}",
+      "features": ["ibc-transfer", "ibc-go"]
     }
   ]
 }

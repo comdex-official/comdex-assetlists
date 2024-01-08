@@ -91,5 +91,8 @@
   },
   "ibc/1966B5EDCAE4F777CB3C83A83AEE3CBA182F2367A41BA61F4F5B9DC8FE606933": {
     "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stcmdx.svg"
+  },
+  "ibc/D031367F58DFD5EED54A49ADCB4EFB44AD9ECCAE383708BFDCCACF3CF463B77C": {
+    "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDCoin.svg"
   }
 }
