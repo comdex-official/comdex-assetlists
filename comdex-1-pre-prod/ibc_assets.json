@@ -509,7 +509,7 @@
       "rest": "https://noble-api.polkachu.com",
       "coinDenom": "usdc",
       "coinMinimalDenom": "uusdc",
-      "symbol": "NUSDC",
+      "symbol": "USDC",
       "coinDecimals": 6,
       "coinType": 118,
       "prefix": "noble",
