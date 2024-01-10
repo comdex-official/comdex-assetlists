@@ -527,7 +527,7 @@
       "rpc": "https://rpc-lb.neutron.org",
       "rest": "https://rest-lb.neutron.org",
       "coinDenom": "bad",
-      "coinMinimalDenom": "ubad",
+      "coinMinimalDenom": "factory/neutron143wp6g8paqasnuuey6zyapucknwy9rhnld8hkr/bad",
       "symbol": "BAD",
       "coinDecimals": 6,
       "coinType": 118,
