@@ -94,5 +94,8 @@
   },
   "ibc/D031367F58DFD5EED54A49ADCB4EFB44AD9ECCAE383708BFDCCACF3CF463B77C": {
     "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDCoin.svg"
+  },
+  "ibc/A4E5A065B7BB3ACA2DDE1815D375C5BBE89FB9FCD47AF71D52FADC4912F5D68D": {
+    "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/8264037625ff27430a6dccedcd5531a1c88c0de7/neutron/images/bad.png"
   }
 }
