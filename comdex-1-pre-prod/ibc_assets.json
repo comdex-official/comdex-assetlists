@@ -520,6 +520,24 @@
       "coinGeckoId": "usd-coin",
       "explorerUrlToTx": "https://www.mintscan.io/noble/txs/{txHash}",
       "features": ["ibc-transfer", "ibc-go"]
+    },
+    {
+      "chainId": "neutron-1",
+      "chainName": "Neutron",
+      "rpc": "https://rpc-lb.neutron.org",
+      "rest": "https://rest-lb.neutron.org",
+      "coinDenom": "bad",
+      "coinMinimalDenom": "ubad",
+      "symbol": "BAD",
+      "coinDecimals": 6,
+      "coinType": 118,
+      "prefix": "neutron",
+      "channel": "channel-73",
+      "comdexChannel": "channel-89",
+      "ibcDenomHash": "ibc/A4E5A065B7BB3ACA2DDE1815D375C5BBE89FB9FCD47AF71D52FADC4912F5D68D",
+      "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/8264037625ff27430a6dccedcd5531a1c88c0de7/neutron/images/bad.png",
+      "explorerUrlToTx": "https://www.mintscan.io/neutron/txs/{txHash}",
+      "features": ["ibc-transfer", "ibc-go"]
     }
   ]
 }
