@@ -1,0 +1,95 @@
+{
+  "ucmdx": {
+    "coinImageUrl": "https://aib-assets.allinbets.com/images/coin-image/cmdx.svg"
+  },
+  "ucmst": {
+    "coinImageUrl": "https://aib-assets.allinbets.com/images/coin-image/cmst.svg"
+  },
+  "uharbor": {
+    "coinImageUrl": "https://aib-assets.allinbets.com/images/coin-image/harbor.svg"
+  },
+  "ibc/961FA3E54F5DCCA639F37A7C45F7BBE41815579EF1513B5AFBEFCFEB8F256352": {
+    "coinImageUrl": "https://aib-assets.allinbets.com/images/coin-image/atom.svg"
+  },
+  "ibc/0471F1C4E7AFD3F07702BEF6DC365268D64570F7C1FDC98EA6098DD6DE59817B": {
+    "coinImageUrl": "https://aib-assets.allinbets.com/images/coin-image/osmo.svg"
+  },
+  "ibc/E1616E7C19EA474C565737709A628D6F8A23FF9D3E9A7A6871306CF5E0A5341E": {
+    "coinImageUrl": "https://aib-assets.allinbets.com/images/coin-image/uausdc L@3x.png"
+  },
+  "ibc/167E3D88D71B7D2F6308D3EF93FC3DD51932B2D9672D72B71418F61CBC5F5717": {
+    "coinImageUrl": "https://aib-assets.allinbets.com/images/coin-image/juno.svg"
+  },
+  "ibc/81C3A46287D7664A8FD19843AC8D0CFD6C284EF1F750C661C48B3544277B1B29": {
+    "coinImageUrl": "https://aib-assets.allinbets.com/images/coin-image/weth.png"
+  },
+  "ibc/0A6F20FA34BEBB63568E44C81C6E154C63ED061BA45E7EBC144B24C0DBBD0A4F": {
+    "coinImageUrl": "https://aib-assets.allinbets.com/images/coin-image/wbtc.png"
+  },
+  "ibc/21476176CD2CBF2F8017EFF231B1132DF23F350B0219AB47A6E087527ECADCC2": {
+    "coinImageUrl": "https://aib-assets.allinbets.com/images/coin-image/statom.svg"
+  },
+  "ibc/E8F0355CBC21AFD4C758E93383D28404D19AEB81E8251A63FAA0C250672ADBEF": {
+    "coinImageUrl": "https://aib-assets.allinbets.com/images/coin-image/wmatic.svg"
+  },
+  "ibc/54DEF693B7C4BF171E7FFF3ABFE2B54D6A3B8A047A32BAAE9F1417A378594EC6": {
+    "coinImageUrl": "https://aib-assets.allinbets.com/images/coin-image/dai.svg"
+  },
+  "ibc/D01562AB9C4CC84E06A84FFA213C7592508120C3F91EFFB1E62117D5932C2B1F": {
+    "coinImageUrl": "https://aib-assets.allinbets.com/images/coin-image/evmos.svg"
+  },
+  "ibc/EC7576E3F8D254787264F0972E6518E42CFFB5305EC9D0BC7DD7B7FFEFACB28A": {
+    "coinImageUrl": "https://aib-assets.allinbets.com/images/coin-image/wbnb.svg"
+  },
+  "ibc/0695E3FA2C74C608E9573025598A7BD4297BE15180F86707B2118E513DBF4A5A": {
+    "coinImageUrl": "https://aib-assets.allinbets.com/images/coin-image/luna.svg"
+  },
+  "ibc/E910718AB26DC0E05677D9B034CF23F17B5B468A464B0CB873A0BE65398DBFBD": {
+    "coinImageUrl": "https://aib-assets.allinbets.com/images/coin-image/canto.svg"
+  },
+  "ibc/CC482813CC038C614C2615A997621EA5E605ADCCD4040B83B0468BD72533A165": {
+    "coinImageUrl": "https://aib-assets.allinbets.com/images/coin-image/stosmo.svg"
+  },
+  "ibc/E437FFE5ABB5163FA7968BAF68146512B81E842DF05BA27E3B25E64B7CDC9AC7": {
+    "coinImageUrl": "https://aib-assets.allinbets.com/images/coin-image/xprt.svg"
+  },
+  "ibc/2B6FC3DC924A1400FAA6D63A112287D09403EF07AFF70ECCD131302DD801A373": {
+    "coinImageUrl": "https://aib-assets.allinbets.com/images/coin-image/akt.svg"
+  },
+  "ibc/78A0828C273648513517BC6C10D9F7F2768472DD5C0F88B27CB54E346CB57D59": {
+    "coinImageUrl": "https://aib-assets.allinbets.com/images/coin-image/ftm.svg"
+  },
+  "ibc/CA83E725FE62B05289379740308469FD6BA5B0A216D37D3C0E71DBF3618DD535": {
+    "coinImageUrl": "https://aib-assets.allinbets.com/images/coin-image/mntl.svg"
+  },
+  "ibc/50EF138042B553362774A8A9DE967F610E52CAEB3BA864881C9A1436DED98075": {
+    "coinImageUrl": "https://aib-assets.allinbets.com/images/coin-image/gusdc.svg"
+  },
+  "ibc/1F18934D62FFDA25C75ED7974EE34DB018BA004B58C42D46EB49AF41BB01AF01": {
+    "coinImageUrl": "https://aib-assets.allinbets.com/images/coin-image/shib.svg"
+  },
+  "ibc/FF6058DDFA9F0885B30D0F6A64BF37CB9A1C6A5DDF19CB204502D9B9577DF1F7": {
+    "coinImageUrl": "https://aib-assets.allinbets.com/images/coin-image/huahua.svg"
+  },
+  "ibc/69E9014ACB503CFE1DD9F3C29133325ECC4DE82E55C3C519015120BF29924882": {
+    "coinImageUrl": "https://aib-assets.allinbets.com/images/coin-image/stkatom.svg"
+  },
+  "ibc/109DD45CF4093BEB472784A0C5B5F4643140900020B74B102B842A4BE2AE45DA": {
+    "coinImageUrl": "https://aib-assets.allinbets.com/images/coin-image/gusdc.svg"
+  },
+  "ibc/62D4ADCCD754F4511E22C34496D37957F95F5B11AE7C0D9BFDE19A5939B1CEA5": {
+    "coinImageUrl": "https://aib-assets.allinbets.com/images/coin-image/stjuno.svg"
+  },
+  "ibc/42ECAF231EC6C17512CEF6325EF337BDC87A39CCBFF61142738DC271BBD15F2F": {
+    "coinImageUrl": "https://aib-assets.allinbets.com/images/coin-image/stluna.svg"
+  },
+  "ibc/A2DF3F0A871DE38DDB91A7A2C545C317D6CD9F8FDBEB3482632D941ACC0B3696": {
+    "coinImageUrl": "https://aib-assets.allinbets.com/images/coin-image/stevmos.svg"
+  },
+  "ibc/1398C0819479AA74844272A00CBFA44D1E7222E70CC7CC06DE4AAC96527C3B67": {
+    "coinImageUrl": "https://aib-assets.allinbets.com/images/coin-image/arb.svg"
+  },
+  "ibc/1966B5EDCAE4F777CB3C83A83AEE3CBA182F2367A41BA61F4F5B9DC8FE606933": {
+    "coinImageUrl": "https://aib-assets.allinbets.com/images/coin-image/stcmdx.svg"
+  }
+}
