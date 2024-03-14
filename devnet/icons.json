@@ -22,5 +22,8 @@
   },
   "ustatom": {
     "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.svg"
+  },
+  "ustosmo": {
+    "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stosmo.svg"
   }
 }
