@@ -97,6 +97,21 @@
       "ibcDenomHash": "ustatom",
       "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.svg",
       "coinGeckoId": "stride-staked-atom"
+    },
+    {
+      "chainId": "stride-1",
+      "chainName": "stride",
+      "coinDenom": "stosmo",
+      "coinMinimalDenom": "stuosmo",
+      "symbol": "stOSMO",
+      "coinDecimals": 6,
+      "coinType": 118,
+      "prefix": "stride",
+      "channel": "channel-49",
+      "comdexChannel": "channel-45",
+      "ibcDenomHash": "ustosmo",
+      "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stosmo.svg",
+      "coinGeckoId": "stride-staked-osmo"
     }
   ]
 }
