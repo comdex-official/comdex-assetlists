@@ -22,5 +22,6 @@
   },
   "ibc/14767887A69DBEFF3B99AA3E5B176C7989B1DAD2395A1E843F48EE981AC4F83F": {
     "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polygon/images/wmatic.svg"
-  }
+  },
+  "ibc/2658C97FC74B74AB1898982081523C455561BBE3C705E47707021D47F3D94B38": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/noble/uusdc.png"
 }
