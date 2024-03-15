@@ -51,7 +51,6 @@
       "coinGeckoId": "axlusdc",
       "depositUrlOverride": "https://testnet.satellite.money/?source=ethereum&destination=comdex&asset_denom=uausdc&destination_address=",
       "withdrawUrlOverride": "https://testnet.satellite.money/?source=comdex&destination=ethereum&asset_denom=uausdc&destination_address="
-
     },
     {
       "chainId": "axelar-testnet-lisbon-3",
@@ -84,6 +83,21 @@
       "coinGeckoId": "axlwmatic",
       "depositUrlOverride": "https://testnet.satellite.money/?source=ethereum&destination=comdex&asset_denom=wmatic-wei&destination_address=",
       "withdrawUrlOverride": "https://testnet.satellite.money/?source=comdex&destination=ethereum&asset_denom=wmatic-wei&destination_address="
+    },
+    {
+      "chainId": "grand-1",
+      "chainName": "noble",
+      "coinDenom": "usdc",
+      "coinMinimalDenom": "uusdc",
+      "symbol": "USDC",
+      "coinDecimals": 6,
+      "coinType": 118,
+      "prefix": "noble",
+      "channel": "channel-27",
+      "comdexChannel": "channel-23",
+      "ibcDenomHash": "ibc/2658C97FC74B74AB1898982081523C455561BBE3C705E47707021D47F3D94B38",
+      "logoURI": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/noble/uusdc.png",
+      "coinGeckoId": "usd-coin"
     }
   ]
 }
