@@ -1,0 +1,28 @@
+{
+    "ucmdx": {
+      "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/cmdx.svg"
+    },
+    "ucmst": {
+      "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/cmst.svg"
+    },
+    "uharbor": {
+      "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/harbor.svg"
+    },
+    "ibc/9117A26BA81E29FA4F78F57DC2BD90CD3D26848101BA880445F119B22A1E254E": {
+      "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg"
+    },
+    "ibc/47BD209179859CDE4A2806763D7189B6E6FE13A17880FE2B42DE1E6C1E329E23": {
+      "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.svg"
+    },
+    "ibc/3D3E77333E4AAE1BCE0F03BEDA9A538166D113AF1B60EB1C35365D03506F07F4": {
+      "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.svg"
+    },
+    "ibc/065AD21492A7749E283A37AC469426562F988B7BA59712C0C545F381865A66BA": {
+      "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/weth.png"
+    },
+    "ibc/14767887A69DBEFF3B99AA3E5B176C7989B1DAD2395A1E843F48EE981AC4F83F": {
+      "coinImageUrl": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polygon/images/wmatic.svg"
+    },
+    "ibc/BFAAB7870A9AAABF64A7366DAAA0B8E5065EAA1FCE762F45677DC24BE796EF65": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/noble/uusdc.png"
+  }
+  
