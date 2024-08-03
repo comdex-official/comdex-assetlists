@@ -33,7 +33,7 @@ export const envConfig = {
     
     harbor: {
       title: "Harbor Protocol",
-      websiteUrl: "https://v2-test.harborprotocol.one",
+      websiteUrl: "https://testnet.harborprotocol.one",
       appId: 2,
       governanceContractAddress: "comdex1yyca08xqdgvjz0psg56z67ejh9xms6l436u8y58m82npdqqhmmtqndtdvh",
       lockingContractAddress: "comdex1qg5ega6dykkxc307y25pecuufrjkxkaggkkxh7nad0vhyhtuhw3swhpdzj",
