@@ -1,6 +1,23 @@
 {
   "tokens": [
     {
+      "rpc": "https://devnet.rpc.comdex.one",
+      "rest": "https://devnet.rest.comdex.one",
+      "chainId": "test-1",
+      "coinDenom": "CMST",
+      "coinMinimalDenom": "ucmst",
+      "coinDecimals": 6,
+      "prefix": "comdex",
+      "coinType": 118,
+      "chainName": "Comdex Test Chain",
+      "explorerUrlToTx": "https://dev-explorer.comdex.one/transactions/{txHash}",
+      "apiUrl": "https://test-stat.comdex.one",
+      "comdexStakingUrl": "https://comdex.omniflix.co/stake",
+      "webSocketApiUrl": "wss://devnet.rpc.comdex.one/websocket",
+      "symbol": "CMST",
+      "coinGeckoId" : "composite"
+    },
+    {
       "chainId": "theta-testnet-001",
       "chainName": "Cosmos Hub Test",
       "rpc": "https://devnet.cswap.one/vega",
